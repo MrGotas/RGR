@@ -1,0 +1,55 @@
+name: CI Pipeline (No Docker)
+
+on:
+  push:
+    branches:
+      - main # при пуше в ветку main
+  pull_request:
+    branches:
+      - main # при создании/обновлении Pull Request в main
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # --- тестирование Фронтенда ---
+      - name: Set up Node.js for Frontend # настройка Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Frontend Dependencies # установка зависимостей фронтенда
+        run: npm install
+        working-directory: ./code/frontend # рабочая директория
+
+      - name: Build Frontend
+        run: npm run build
+        working-directory: ./code/frontend
+
+      # --- тестирование Бэкенда ---
+      - name: Set up Python for Backend
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Backend Dependencies # Шаг 6: Устанавливаем зависимости бэкенда
+        run: pip install -r requirements.txt
+        working-directory: ./server/lab4 # Указываем рабочую директорию
+
+      - name: Run Backend Tests # Шаг 7: Запускаем тесты Django
+        run: python manage.py test
+        working-directory: ./server/lab4
+        env: # Передаем переменные окружения для тестов
+          # Для тестов в CI без реальной БД используем SQLite
+          DATABASE_URL: sqlite:///db.sqlite3
+          # Секретный ключ для CI (хранится в секретах GitHub)
+          SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
+          DEBUG: True # Для тестов можно оставить True
+          ALLOWED_HOSTS: localhost,127.0.0.1
+          CORS_ALLOWED_ORIGINS: http://localhost
+          CORS_ALLOW_ALL_ORIGINS: True
+          SESSION_COOKIE_DOMAIN:

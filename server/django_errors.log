@@ -1,0 +1,1014 @@
+INFO 2025-06-13 04:13:59,803 autoreload 16800 13776 Watching for file changes with StatReloader
+INFO 2025-06-13 04:17:17,809 autoreload 16800 13776 C:\Users\mrgot\Desktop\rab\lab4\code\server\lab4\lab4\settings.py changed, reloading.
+INFO 2025-06-13 04:17:18,324 autoreload 5672 17160 Watching for file changes with StatReloader
+INFO 2025-06-13 04:17:33,003 autoreload 1632 13896 Watching for file changes with StatReloader
+INFO 2025-06-13 04:17:38,932 basehttp 1632 15580 "GET / HTTP/1.1" 200 12451
+WARNING 2025-06-13 04:17:39,043 log 1632 15580 Not Found: /favicon.ico
+WARNING 2025-06-13 04:17:39,044 basehttp 1632 15580 "GET /favicon.ico HTTP/1.1" 404 2206
+INFO 2025-06-13 05:13:50,375 autoreload 17480 15252 Watching for file changes with StatReloader
+WARNING 2025-06-13 05:22:25,402 log 17480 10308 Not Found: /api/register/
+WARNING 2025-06-13 05:22:25,403 basehttp 17480 10308 "GET /api/register/ HTTP/1.1" 404 2212
+WARNING 2025-06-13 05:25:57,842 log 17480 18004 Not Found: /api/register/
+WARNING 2025-06-13 05:25:57,843 basehttp 17480 18004 "POST /api/register/ HTTP/1.1" 404 2213
+INFO 2025-06-13 05:27:52,794 autoreload 17480 15252 C:\Users\mrgot\Desktop\rab\lab4\code\server\lab4\lab4\urls.py changed, reloading.
+INFO 2025-06-13 05:27:53,980 autoreload 19308 3676 Watching for file changes with StatReloader
+INFO 2025-06-13 05:28:52,177 autoreload 19308 3676 C:\Users\mrgot\Desktop\rab\lab4\code\server\lab4\lab4\urls.py changed, reloading.
+INFO 2025-06-13 05:28:52,650 autoreload 18624 18856 Watching for file changes with StatReloader
+INFO 2025-06-13 05:29:42,675 autoreload 18624 18856 C:\Users\mrgot\Desktop\rab\lab4\code\server\lab4\api\urls.py changed, reloading.
+INFO 2025-06-13 05:29:43,229 autoreload 18296 17924 Watching for file changes with StatReloader
+INFO 2025-06-13 05:30:08,652 autoreload 2364 8852 Watching for file changes with StatReloader
+WARNING 2025-06-13 05:30:14,424 log 2364 13876 Not Found: /
+WARNING 2025-06-13 05:30:14,425 basehttp 2364 13876 "GET / HTTP/1.1" 404 2302
+INFO 2025-06-13 05:30:39,671 views 2364 10308 Зарегистрирован новый пользователь: gotas
+INFO 2025-06-13 05:30:39,672 basehttp 2364 10308 "POST /api/register/ HTTP/1.1" 201 135
+INFO 2025-06-13 06:16:20,039 basehttp 2364 20120 "OPTIONS /api/register/ HTTP/1.1" 200 473
+INFO 2025-06-13 06:22:20,832 autoreload 19876 8852 Watching for file changes with StatReloader
+INFO 2025-06-13 06:22:49,788 basehttp 19876 3212 "OPTIONS /api/login/ HTTP/1.1" 200 0
+WARNING 2025-06-13 06:22:50,172 views 19876 3212 Неудачная попытка входа для пользователя: mr.gotas@mail.ru
+WARNING 2025-06-13 06:22:50,174 log 19876 3212 Bad Request: /api/login/
+WARNING 2025-06-13 06:22:50,175 basehttp 19876 3212 "POST /api/login/ HTTP/1.1" 400 58
+INFO 2025-06-13 06:23:05,567 basehttp 19876 3212 "OPTIONS /api/register/ HTTP/1.1" 200 0
+INFO 2025-06-13 06:23:05,995 views 19876 3212 Зарегистрирован новый пользователь: test
+INFO 2025-06-13 06:23:05,995 basehttp 19876 3212 "POST /api/register/ HTTP/1.1" 201 135
+INFO 2025-06-13 06:23:16,838 views 19876 3212 Пользователь test успешно вошел.
+INFO 2025-06-13 06:23:16,839 basehttp 19876 3212 "POST /api/login/ HTTP/1.1" 200 52
+INFO 2025-06-13 06:23:16,848 basehttp 19876 3212 "OPTIONS /api/applications/ HTTP/1.1" 200 0
+INFO 2025-06-13 06:23:16,851 basehttp 19876 19820 "OPTIONS /api/applications/ HTTP/1.1" 200 0
+INFO 2025-06-13 06:23:16,882 basehttp 19876 3212 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 06:23:17,031 basehttp 19876 3212 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 06:23:24,711 basehttp 19876 3212 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 06:23:24,738 basehttp 19876 3212 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 06:23:24,765 basehttp 19876 3212 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 06:23:34,887 basehttp 19876 3212 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 06:23:34,916 basehttp 19876 3212 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 06:23:34,942 basehttp 19876 3212 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 06:23:37,060 basehttp 19876 3212 "OPTIONS /api/logout/ HTTP/1.1" 200 0
+INFO 2025-06-13 06:23:37,104 views 19876 3212 Пользователь test вышел.
+INFO 2025-06-13 06:23:37,105 basehttp 19876 3212 "POST /api/logout/ HTTP/1.1" 200 41
+WARNING 2025-06-13 06:24:05,598 views 19876 3212 Ошибка регистрации пользователя: {'username': [ErrorDetail(string='Пользователь с таким именем уже существует.', code='unique')]}
+WARNING 2025-06-13 06:24:05,599 log 19876 3212 Bad Request: /api/register/
+WARNING 2025-06-13 06:24:05,599 basehttp 19876 3212 "POST /api/register/ HTTP/1.1" 400 97
+INFO 2025-06-13 06:24:17,462 views 19876 3212 Пользователь gotas успешно вошел.
+INFO 2025-06-13 06:24:17,463 basehttp 19876 3212 "POST /api/login/ HTTP/1.1" 200 52
+INFO 2025-06-13 06:24:17,501 basehttp 19876 3212 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 06:24:17,656 basehttp 19876 3212 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 06:34:23,198 views 19876 5496 Зарегистрирован новый пользователь: test1
+INFO 2025-06-13 06:34:23,199 basehttp 19876 5496 "POST /api/register/ HTTP/1.1" 201 135
+INFO 2025-06-13 06:44:37,087 views 19876 19764 Пользователь gotas успешно вошел.
+INFO 2025-06-13 06:44:37,089 basehttp 19876 19764 "POST /api/login/ HTTP/1.1" 200 52
+INFO 2025-06-13 06:44:37,131 basehttp 19876 19764 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 06:44:37,160 basehttp 19876 19764 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 06:57:59,241 basehttp 19876 9696 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 06:57:59,266 basehttp 19876 9696 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:03:44,237 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:04:39,351 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:05:07,245 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:05:11,481 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:05:11,510 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:05:11,539 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:05:40,349 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:09:22,200 basehttp 19876 5980 "OPTIONS /api/locations/ HTTP/1.1" 200 0
+INFO 2025-06-13 07:09:22,203 basehttp 19876 8748 "OPTIONS /api/brigades/ HTTP/1.1" 200 0
+INFO 2025-06-13 07:09:22,205 basehttp 19876 17708 "OPTIONS /api/objects/ HTTP/1.1" 200 0
+INFO 2025-06-13 07:09:22,208 basehttp 19876 5980 "OPTIONS /api/statuses/ HTTP/1.1" 200 0
+INFO 2025-06-13 07:09:22,247 basehttp 19876 8748 "GET /api/brigades/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:09:22,247 basehttp 19876 20084 "GET /api/locations/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:09:22,248 basehttp 19876 17708 "GET /api/objects/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:09:22,253 basehttp 19876 5980 "GET /api/statuses/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:10:58,629 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:10:58,774 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:03,337 views 19876 5980 Пользователь gotas вышел.
+INFO 2025-06-13 07:11:03,338 basehttp 19876 5980 "POST /api/logout/ HTTP/1.1" 200 41
+INFO 2025-06-13 07:11:10,914 views 19876 5980 Пользователь gotas успешно вошел.
+INFO 2025-06-13 07:11:10,916 basehttp 19876 5980 "POST /api/login/ HTTP/1.1" 200 52
+INFO 2025-06-13 07:11:11,083 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:11,120 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:12,463 views 19876 5980 Пользователь gotas вышел.
+INFO 2025-06-13 07:11:12,464 basehttp 19876 5980 "POST /api/logout/ HTTP/1.1" 200 41
+INFO 2025-06-13 07:11:33,793 views 19876 5980 Зарегистрирован новый пользователь: test3
+INFO 2025-06-13 07:11:33,793 basehttp 19876 5980 "POST /api/register/ HTTP/1.1" 201 135
+INFO 2025-06-13 07:11:41,830 views 19876 5980 Пользователь test3 успешно вошел.
+INFO 2025-06-13 07:11:41,831 basehttp 19876 5980 "POST /api/login/ HTTP/1.1" 200 52
+INFO 2025-06-13 07:11:41,876 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:41,907 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:43,501 views 19876 5980 Пользователь test3 вышел.
+INFO 2025-06-13 07:11:43,502 basehttp 19876 5980 "POST /api/logout/ HTTP/1.1" 200 41
+WARNING 2025-06-13 07:11:47,335 views 19876 5980 Неудачная попытка входа для пользователя: test3
+WARNING 2025-06-13 07:11:47,335 log 19876 5980 Bad Request: /api/login/
+WARNING 2025-06-13 07:11:47,336 basehttp 19876 5980 "POST /api/login/ HTTP/1.1" 400 58
+INFO 2025-06-13 07:11:52,336 views 19876 5980 Пользователь test3 успешно вошел.
+INFO 2025-06-13 07:11:52,337 basehttp 19876 5980 "POST /api/login/ HTTP/1.1" 200 52
+INFO 2025-06-13 07:11:52,379 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:52,411 basehttp 19876 5980 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:54,443 basehttp 19876 5980 "GET /api/locations/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:54,447 basehttp 19876 17708 "GET /api/objects/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:54,450 basehttp 19876 20084 "GET /api/statuses/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:54,454 basehttp 19876 8748 "GET /api/brigades/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:54,475 basehttp 19876 5980 "GET /api/locations/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:54,480 basehttp 19876 17708 "GET /api/objects/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:54,481 basehttp 19876 20084 "GET /api/statuses/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:11:54,484 basehttp 19876 8748 "GET /api/brigades/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:30:02,064 autoreload 12192 4664 Watching for file changes with StatReloader
+INFO 2025-06-13 07:30:06,987 basehttp 12192 16592 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:30:06,990 basehttp 12192 18288 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:30:06,994 basehttp 12192 19948 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:30:07,024 basehttp 12192 19948 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:30:07,024 basehttp 12192 18288 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:30:07,055 basehttp 12192 18288 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:30:07,090 basehttp 12192 5392 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:30:07,123 basehttp 12192 16592 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:30:07,126 basehttp 12192 5392 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:30:07,161 basehttp 12192 16592 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:30:07,161 basehttp 12192 5392 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:30:07,168 basehttp 12192 19948 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:30:09,905 basehttp 12192 19948 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:30:09,941 basehttp 12192 19948 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:30:11,116 views 12192 19948 Пользователь test3 вышел.
+INFO 2025-06-13 07:30:11,116 basehttp 12192 19948 "POST /api/logout/ HTTP/1.1" 200 41
+INFO 2025-06-13 07:30:22,617 views 12192 19948 Пользователь gotas успешно вошел.
+INFO 2025-06-13 07:30:22,618 basehttp 12192 19948 "POST /api/login/ HTTP/1.1" 200 52
+INFO 2025-06-13 07:30:22,659 basehttp 12192 19948 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:30:22,697 basehttp 12192 19948 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:30:32,521 basehttp 12192 19948 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:30:32,526 basehttp 12192 16592 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:30:32,532 basehttp 12192 18288 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:30:32,533 basehttp 12192 5392 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:30:32,558 basehttp 12192 16592 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:30:32,565 basehttp 12192 5392 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:30:32,565 basehttp 12192 18288 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:30:32,667 basehttp 12192 19948 "GET /api/locations/ HTTP/1.1" 200 342
+WARNING 2025-06-13 07:31:22,960 utils 12192 19948 Ошибка клиента (400): {'location': [ErrorDetail(string='Обязательное поле.', code='required')], 'object_instance': [ErrorDetail(string='Обязательное поле.', code='required')], 'status': [ErrorDetail(string='Обязательное поле.', code='required')]}
+WARNING 2025-06-13 07:31:22,963 log 12192 19948 Bad Request: /api/applications/
+WARNING 2025-06-13 07:31:22,963 basehttp 12192 19948 "POST /api/applications/ HTTP/1.1" 400 226
+INFO 2025-06-13 07:33:17,245 basehttp 12192 19948 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:33:17,251 basehttp 12192 18288 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:33:17,252 basehttp 12192 5392 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:33:17,255 basehttp 12192 16592 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:33:47,090 views 12192 16592 Создание заявки: {'location': <Location: Литьевой цех>, 'identifier': '5kdsg4', 'correction': 'Всё очень плохо', 'object_instance': <Object: Промышленный насос>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 13, 3, 33, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 07:33:47,092 basehttp 12192 16592 "POST /api/applications/ HTTP/1.1" 201 330
+INFO 2025-06-13 07:33:49,100 basehttp 12192 16592 "GET /api/applications/ HTTP/1.1" 200 332
+INFO 2025-06-13 07:33:49,241 basehttp 12192 16592 "GET /api/applications/ HTTP/1.1" 200 332
+INFO 2025-06-13 07:34:01,788 basehttp 12192 16592 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:34:01,788 basehttp 12192 5392 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:34:01,793 basehttp 12192 18288 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:34:01,793 basehttp 12192 19948 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:34:01,798 basehttp 12192 18152 "OPTIONS /api/applications/1/ HTTP/1.1" 200 0
+INFO 2025-06-13 07:34:01,823 basehttp 12192 18288 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:34:01,825 basehttp 12192 19948 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:34:01,830 basehttp 12192 16592 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:34:01,830 basehttp 12192 5392 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:34:01,839 basehttp 12192 18152 "GET /api/applications/1/ HTTP/1.1" 200 330
+INFO 2025-06-13 07:34:01,879 basehttp 12192 18152 "GET /api/applications/1/ HTTP/1.1" 200 330
+INFO 2025-06-13 07:34:11,926 views 12192 18152 Обновление заявки (ID: 1): {'location': <Location: Офисы>, 'identifier': '5kdsg4', 'correction': 'Всё очень плохо', 'object_instance': <Object: Промышленный насос>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 12, 20, 33, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 07:34:11,928 basehttp 12192 18152 "PUT /api/applications/1/ HTTP/1.1" 200 304
+INFO 2025-06-13 07:34:13,506 basehttp 12192 18152 "GET /api/applications/ HTTP/1.1" 200 306
+INFO 2025-06-13 07:34:13,550 basehttp 12192 18152 "GET /api/applications/ HTTP/1.1" 200 306
+INFO 2025-06-13 07:34:26,824 views 12192 18152 Удаление заявки (ID: 1)
+INFO 2025-06-13 07:34:26,826 basehttp 12192 18152 "DELETE /api/applications/1/ HTTP/1.1" 204 0
+INFO 2025-06-13 07:34:28,163 basehttp 12192 18152 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:35:29,158 basehttp 12192 18152 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-13 07:35:32,669 basehttp 12192 5392 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:35:32,672 basehttp 12192 19948 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:35:32,676 basehttp 12192 16592 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:35:32,702 basehttp 12192 19948 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:35:32,702 basehttp 12192 5392 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:35:32,756 basehttp 12192 18152 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:35:32,785 basehttp 12192 18152 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:35:32,803 basehttp 12192 16592 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:35:55,692 views 12192 16592 Создание заявки: {'location': <Location: Литьевой цех>, 'identifier': '5kdsg4', 'correction': 'Всё очень плохо', 'object_instance': <Object: Вентиляционная система>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 13, 3, 35, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 07:35:55,694 basehttp 12192 16592 "POST /api/applications/ HTTP/1.1" 201 338
+INFO 2025-06-13 07:35:57,008 basehttp 12192 16592 "GET /api/applications/ HTTP/1.1" 200 340
+INFO 2025-06-13 07:35:57,048 basehttp 12192 16592 "GET /api/applications/ HTTP/1.1" 200 340
+INFO 2025-06-13 07:36:01,779 basehttp 12192 16592 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:36:01,785 basehttp 12192 18152 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:36:01,789 basehttp 12192 5392 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:36:01,794 basehttp 12192 19948 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:36:01,814 basehttp 12192 16592 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:36:01,817 basehttp 12192 18152 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:36:01,829 basehttp 12192 19948 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:36:01,921 basehttp 12192 5392 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:36:39,331 views 12192 5392 Создание заявки: {'location': <Location: Погрузочный цех>, 'identifier': '5j3455', 'correction': 'нормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнорм', 'object_instance': <Object: Вентиляционная система>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 13, 3, 36, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 07:36:39,333 basehttp 12192 5392 "POST /api/applications/ HTTP/1.1" 201 1199
+INFO 2025-06-13 07:36:40,443 basehttp 12192 5392 "GET /api/applications/ HTTP/1.1" 200 1540
+INFO 2025-06-13 07:36:40,481 basehttp 12192 5392 "GET /api/applications/ HTTP/1.1" 200 1540
+INFO 2025-06-13 07:41:08,282 basehttp 12192 5392 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:41:08,288 basehttp 12192 17368 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:41:08,294 basehttp 12192 19772 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:41:08,294 basehttp 12192 19088 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:41:08,322 basehttp 12192 17368 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:41:08,323 basehttp 12192 19088 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:41:08,324 basehttp 12192 19772 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:41:08,423 basehttp 12192 5392 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:41:44,904 views 12192 5392 Создание заявки: {'brigade': <Brigade: Бригада №3>, 'location': <Location: Складской цех>, 'identifier': '5sm234', 'correction': 'наверно справятся...', 'object_instance': <Object: Трансформатор>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 13, 3, 41, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 07:41:44,906 basehttp 12192 5392 "POST /api/applications/ HTTP/1.1" 201 334
+INFO 2025-06-13 07:41:46,060 basehttp 12192 5392 "GET /api/applications/ HTTP/1.1" 200 1875
+INFO 2025-06-13 07:41:46,203 basehttp 12192 5392 "GET /api/applications/ HTTP/1.1" 200 1875
+INFO 2025-06-13 07:41:52,489 basehttp 12192 5392 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:41:52,495 basehttp 12192 19772 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:41:52,502 basehttp 12192 19088 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:41:52,503 basehttp 12192 17368 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:41:52,508 basehttp 12192 4104 "OPTIONS /api/applications/4/ HTTP/1.1" 200 0
+INFO 2025-06-13 07:41:52,527 basehttp 12192 5392 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:41:52,529 basehttp 12192 19772 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:41:52,533 basehttp 12192 19088 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:41:52,536 basehttp 12192 17368 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:41:52,550 basehttp 12192 4104 "GET /api/applications/4/ HTTP/1.1" 200 334
+INFO 2025-06-13 07:41:52,695 basehttp 12192 4104 "GET /api/applications/4/ HTTP/1.1" 200 334
+INFO 2025-06-13 07:41:55,454 views 12192 4104 Обновление заявки (ID: 4): {'brigade': <Brigade: Бригада №4>, 'location': <Location: Складской цех>, 'identifier': '5sm234', 'correction': 'наверно справятся...', 'object_instance': <Object: Трансформатор>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 12, 20, 41, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 07:41:55,456 basehttp 12192 4104 "PUT /api/applications/4/ HTTP/1.1" 200 334
+INFO 2025-06-13 07:41:56,678 basehttp 12192 4104 "GET /api/applications/ HTTP/1.1" 200 1875
+INFO 2025-06-13 07:41:56,720 basehttp 12192 4104 "GET /api/applications/ HTTP/1.1" 200 1875
+INFO 2025-06-13 07:42:00,906 basehttp 12192 17368 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:42:00,912 basehttp 12192 19772 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:42:00,912 basehttp 12192 19088 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:42:00,935 basehttp 12192 17368 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:42:00,940 basehttp 12192 19772 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:42:00,947 basehttp 12192 19088 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:42:00,989 basehttp 12192 4104 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:42:01,016 basehttp 12192 4104 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:42:01,023 basehttp 12192 19088 "GET /api/applications/4/ HTTP/1.1" 200 334
+INFO 2025-06-13 07:42:01,065 basehttp 12192 19088 "GET /api/applications/4/ HTTP/1.1" 200 334
+INFO 2025-06-13 07:42:03,264 basehttp 12192 19088 "GET /api/applications/ HTTP/1.1" 200 1875
+INFO 2025-06-13 07:42:03,307 basehttp 12192 19088 "GET /api/applications/ HTTP/1.1" 200 1875
+INFO 2025-06-13 07:42:29,594 basehttp 12192 19088 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:42:29,599 basehttp 12192 4104 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:42:29,602 basehttp 12192 17368 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:42:29,602 basehttp 12192 19772 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:42:29,631 basehttp 12192 19088 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:42:29,632 basehttp 12192 4104 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:42:29,637 basehttp 12192 17368 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:42:29,639 basehttp 12192 19772 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:42:44,579 views 12192 19772 Создание заявки: {'brigade': None, 'location': <Location: Отгрузочный цех>, 'identifier': '5h32b', 'correction': None, 'object_instance': <Object: Компрессорная установка>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 13, 3, 42, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 07:42:44,581 basehttp 12192 19772 "POST /api/applications/ HTTP/1.1" 201 319
+INFO 2025-06-13 07:42:45,886 basehttp 12192 19772 "GET /api/applications/ HTTP/1.1" 200 2195
+INFO 2025-06-13 07:42:45,932 basehttp 12192 19772 "GET /api/applications/ HTTP/1.1" 200 2195
+INFO 2025-06-13 07:42:48,062 basehttp 12192 19772 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:42:48,065 basehttp 12192 17368 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:42:48,069 basehttp 12192 4104 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:42:48,070 basehttp 12192 19088 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:42:48,098 basehttp 12192 17368 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:42:48,101 basehttp 12192 19772 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:42:48,104 basehttp 12192 19088 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:42:48,213 basehttp 12192 4104 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:43:14,205 views 12192 4104 Создание заявки: {'brigade': <Brigade: Бригада №8>, 'location': <Location: Отгрузочный цех>, 'identifier': '5bjb2', 'correction': None, 'object_instance': <Object: Подъемный кран>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 13, 3, 43, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 07:43:14,208 basehttp 12192 4104 "POST /api/applications/ HTTP/1.1" 201 304
+INFO 2025-06-13 07:43:15,420 basehttp 12192 4104 "GET /api/applications/ HTTP/1.1" 200 2500
+INFO 2025-06-13 07:43:15,469 basehttp 12192 4104 "GET /api/applications/ HTTP/1.1" 200 2500
+INFO 2025-06-13 07:44:59,965 basehttp 12192 4104 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:44:59,969 basehttp 12192 19772 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:44:59,969 basehttp 12192 19088 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:44:59,970 basehttp 12192 17368 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:45:00,011 basehttp 12192 19088 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:45:00,011 basehttp 12192 19772 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:45:00,011 basehttp 12192 17368 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:45:00,105 basehttp 12192 4104 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:45:22,056 views 12192 4104 Создание заявки: {'brigade': None, 'location': <Location: Сборочный цех>, 'identifier': '43bkjlk4', 'correction': None, 'object_instance': <Object: Сварочный аппарат>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 13, 3, 45, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 07:45:22,059 basehttp 12192 4104 "POST /api/applications/ HTTP/1.1" 201 306
+INFO 2025-06-13 07:45:23,270 basehttp 12192 4104 "GET /api/applications/ HTTP/1.1" 200 2807
+INFO 2025-06-13 07:45:23,427 basehttp 12192 4104 "GET /api/applications/ HTTP/1.1" 200 2807
+INFO 2025-06-13 07:46:10,022 basehttp 12192 17368 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:46:10,025 basehttp 12192 19772 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:46:10,025 basehttp 12192 19088 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:46:10,052 basehttp 12192 19772 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:46:10,052 basehttp 12192 19088 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:46:10,108 basehttp 12192 4104 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:46:10,113 basehttp 12192 19088 "OPTIONS /api/applications/7/ HTTP/1.1" 200 0
+INFO 2025-06-13 07:46:10,138 basehttp 12192 4104 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:46:10,153 basehttp 12192 19088 "GET /api/applications/7/ HTTP/1.1" 200 306
+INFO 2025-06-13 07:46:10,155 basehttp 12192 17368 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:46:10,193 basehttp 12192 17368 "GET /api/applications/7/ HTTP/1.1" 200 306
+INFO 2025-06-13 07:46:16,648 views 12192 17368 Обновление заявки (ID: 7): {'brigade': None, 'location': <Location: Сборочный цех>, 'identifier': '43bkjlk4', 'correction': None, 'object_instance': <Object: Сварочный аппарат>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 12, 20, 45, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': datetime.datetime(2025, 6, 15, 3, 46, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau'))}
+INFO 2025-06-13 07:46:16,650 basehttp 12192 17368 "PUT /api/applications/7/ HTTP/1.1" 200 329
+INFO 2025-06-13 07:46:17,993 basehttp 12192 17368 "GET /api/applications/ HTTP/1.1" 200 2830
+INFO 2025-06-13 07:46:18,039 basehttp 12192 17368 "GET /api/applications/ HTTP/1.1" 200 2830
+INFO 2025-06-13 07:47:47,268 basehttp 12192 17368 "GET /api/applications/ HTTP/1.1" 200 2830
+INFO 2025-06-13 07:47:47,348 basehttp 12192 19088 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:48:16,251 basehttp 12192 17368 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:48:16,264 basehttp 12192 19088 "GET /api/applications/ HTTP/1.1" 200 2830
+INFO 2025-06-13 07:48:44,737 views 12192 19088 Удаление заявки (ID: 7)
+INFO 2025-06-13 07:48:44,739 basehttp 12192 19088 "DELETE /api/applications/7/ HTTP/1.1" 204 0
+INFO 2025-06-13 07:48:45,957 basehttp 12192 17368 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:48:45,971 basehttp 12192 19088 "GET /api/applications/ HTTP/1.1" 200 2500
+INFO 2025-06-13 07:49:14,269 basehttp 12192 19088 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:49:14,273 basehttp 12192 17368 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:49:14,275 basehttp 12192 19772 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:49:14,300 basehttp 12192 19088 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:49:14,305 basehttp 12192 19772 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:49:14,305 basehttp 12192 17368 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:49:14,375 basehttp 12192 4104 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:49:14,380 basehttp 12192 17368 "OPTIONS /api/applications/5/ HTTP/1.1" 200 0
+INFO 2025-06-13 07:49:14,408 basehttp 12192 4104 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:49:14,421 basehttp 12192 17368 "GET /api/applications/5/ HTTP/1.1" 200 319
+INFO 2025-06-13 07:49:14,457 basehttp 12192 17368 "GET /api/applications/5/ HTTP/1.1" 200 319
+INFO 2025-06-13 07:49:21,955 views 12192 17368 Обновление заявки (ID: 5): {'brigade': <Brigade: Бригада №5>, 'location': <Location: Отгрузочный цех>, 'identifier': '5h32b', 'correction': None, 'object_instance': <Object: Компрессорная установка>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 12, 20, 42, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 07:49:21,957 basehttp 12192 17368 "PUT /api/applications/5/ HTTP/1.1" 200 322
+INFO 2025-06-13 07:49:24,327 basehttp 12192 4104 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:49:24,344 basehttp 12192 17368 "GET /api/applications/ HTTP/1.1" 200 2503
+INFO 2025-06-13 07:49:24,361 basehttp 12192 4104 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:49:24,387 basehttp 12192 17368 "GET /api/applications/ HTTP/1.1" 200 2503
+INFO 2025-06-13 07:49:31,386 basehttp 12192 17368 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:49:31,390 basehttp 12192 19088 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:49:31,391 basehttp 12192 19772 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:49:31,428 basehttp 12192 19088 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 07:49:31,428 basehttp 12192 19772 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:49:31,484 basehttp 12192 4104 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:49:31,486 basehttp 12192 19772 "OPTIONS /api/applications/3/ HTTP/1.1" 200 0
+INFO 2025-06-13 07:49:31,511 basehttp 12192 4104 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 07:49:31,516 basehttp 12192 17368 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 07:49:31,527 basehttp 12192 19772 "GET /api/applications/3/ HTTP/1.1" 200 1199
+INFO 2025-06-13 07:49:31,661 basehttp 12192 19772 "GET /api/applications/3/ HTTP/1.1" 200 1199
+INFO 2025-06-13 07:49:43,484 views 12192 19772 Обновление заявки (ID: 3): {'brigade': <Brigade: Бригада №5>, 'location': <Location: Погрузочный цех>, 'identifier': '5j3455', 'correction': 'нормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнормнорм', 'object_instance': <Object: Вентиляционная система>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 12, 20, 36, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 07:49:43,486 basehttp 12192 19772 "PUT /api/applications/3/ HTTP/1.1" 200 1215
+INFO 2025-06-13 07:49:44,949 basehttp 12192 17368 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:49:44,966 basehttp 12192 19772 "GET /api/applications/ HTTP/1.1" 200 2519
+INFO 2025-06-13 07:49:44,983 basehttp 12192 17368 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:49:45,111 basehttp 12192 19772 "GET /api/applications/ HTTP/1.1" 200 2519
+INFO 2025-06-13 07:50:55,241 basehttp 12192 17368 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:50:55,251 basehttp 12192 19772 "GET /api/applications/ HTTP/1.1" 200 2519
+INFO 2025-06-13 07:50:57,407 views 12192 19772 Пользователь gotas вышел.
+INFO 2025-06-13 07:50:57,408 basehttp 12192 19772 "POST /api/logout/ HTTP/1.1" 200 41
+WARNING 2025-06-13 07:51:01,332 views 12192 19772 Неудачная попытка входа для пользователя: апонра
+WARNING 2025-06-13 07:51:01,333 log 12192 19772 Bad Request: /api/login/
+WARNING 2025-06-13 07:51:01,334 basehttp 12192 19772 "POST /api/login/ HTTP/1.1" 400 58
+INFO 2025-06-13 07:51:33,604 views 12192 19772 Зарегистрирован новый пользователь: Lexa
+INFO 2025-06-13 07:51:33,605 basehttp 12192 19772 "POST /api/register/ HTTP/1.1" 201 135
+INFO 2025-06-13 07:51:49,961 views 12192 19772 Пользователь Lexa успешно вошел.
+INFO 2025-06-13 07:51:49,963 basehttp 12192 19772 "POST /api/login/ HTTP/1.1" 200 52
+INFO 2025-06-13 07:51:50,013 basehttp 12192 17368 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:51:50,027 basehttp 12192 19772 "GET /api/applications/ HTTP/1.1" 200 2519
+INFO 2025-06-13 07:51:50,069 basehttp 12192 19772 "GET /api/applications/ HTTP/1.1" 200 2519
+INFO 2025-06-13 07:51:50,141 basehttp 12192 17368 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:53:04,494 basehttp 12192 19772 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 07:53:04,504 basehttp 12192 17368 "GET /api/applications/ HTTP/1.1" 200 2519
+INFO 2025-06-13 08:07:20,923 autoreload 20328 17472 Watching for file changes with StatReloader
+INFO 2025-06-13 08:07:23,971 basehttp 20328 18844 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:07:23,996 basehttp 20328 13420 "GET /api/applications/ HTTP/1.1" 200 2519
+INFO 2025-06-13 08:07:24,000 basehttp 20328 18844 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:07:24,148 basehttp 20328 18844 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:07:24,166 basehttp 20328 13420 "GET /api/applications/ HTTP/1.1" 200 2519
+INFO 2025-06-13 08:07:24,329 basehttp 20328 13420 "GET /api/applications/ HTTP/1.1" 200 2519
+INFO 2025-06-13 08:07:28,747 basehttp 20328 13420 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 08:07:28,752 basehttp 20328 4152 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:07:28,752 basehttp 20328 18844 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 08:07:28,757 basehttp 20328 4700 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 08:07:28,763 basehttp 20328 17232 "OPTIONS /api/applications/2/ HTTP/1.1" 200 0
+INFO 2025-06-13 08:07:28,782 basehttp 20328 13420 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 08:07:28,783 basehttp 20328 4152 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:07:28,791 basehttp 20328 18844 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 08:07:28,904 basehttp 20328 4700 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 08:07:28,913 basehttp 20328 17232 "GET /api/applications/2/ HTTP/1.1" 200 338
+INFO 2025-06-13 08:07:28,949 basehttp 20328 17232 "GET /api/applications/2/ HTTP/1.1" 200 338
+INFO 2025-06-13 08:07:45,919 views 20328 17232 Обновление заявки (ID: 2): {'brigade': <Brigade: Бригада №10>, 'location': <Location: Литьевой цех>, 'identifier': '5kdsg4', 'correction': 'Всё очень плохо, но теперь хорошо', 'object_instance': <Object: Вентиляционная система>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 12, 20, 35, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': datetime.datetime(2025, 6, 15, 4, 7, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau'))}
+INFO 2025-06-13 08:07:45,922 basehttp 20328 17232 "PUT /api/applications/2/ HTTP/1.1" 200 411
+INFO 2025-06-13 08:07:48,097 basehttp 20328 4700 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:07:48,112 basehttp 20328 17232 "GET /api/applications/ HTTP/1.1" 200 2592
+INFO 2025-06-13 08:07:48,135 basehttp 20328 4700 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:07:48,158 basehttp 20328 17232 "GET /api/applications/ HTTP/1.1" 200 2592
+INFO 2025-06-13 08:07:56,313 basehttp 20328 17232 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 08:07:56,319 basehttp 20328 4152 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 08:07:56,322 basehttp 20328 4700 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 08:07:56,329 basehttp 20328 18844 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:07:56,333 basehttp 20328 13420 "OPTIONS /api/applications/6/ HTTP/1.1" 200 0
+INFO 2025-06-13 08:07:56,351 basehttp 20328 4152 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 08:07:56,356 basehttp 20328 4700 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 08:07:56,365 basehttp 20328 18844 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:07:56,373 basehttp 20328 13420 "GET /api/applications/6/ HTTP/1.1" 200 304
+INFO 2025-06-13 08:07:56,447 basehttp 20328 17232 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 08:07:56,487 basehttp 20328 17232 "GET /api/applications/6/ HTTP/1.1" 200 304
+INFO 2025-06-13 08:08:01,338 views 20328 17232 Обновление заявки (ID: 6): {'brigade': <Brigade: Бригада №8>, 'location': <Location: Отгрузочный цех>, 'identifier': '5bjb2', 'correction': None, 'object_instance': <Object: Подъемный кран>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 12, 20, 43, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': datetime.datetime(2025, 6, 28, 4, 7, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau'))}
+INFO 2025-06-13 08:08:01,340 basehttp 20328 17232 "PUT /api/applications/6/ HTTP/1.1" 200 327
+INFO 2025-06-13 08:08:02,345 basehttp 20328 13420 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:08:02,359 basehttp 20328 17232 "GET /api/applications/ HTTP/1.1" 200 2615
+INFO 2025-06-13 08:08:02,375 basehttp 20328 13420 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:08:02,402 basehttp 20328 17232 "GET /api/applications/ HTTP/1.1" 200 2615
+INFO 2025-06-13 08:08:15,143 views 20328 17232 Пользователь Lexa вышел.
+INFO 2025-06-13 08:08:15,144 basehttp 20328 17232 "POST /api/logout/ HTTP/1.1" 200 41
+INFO 2025-06-13 08:08:33,432 views 20328 17232 Зарегистрирован новый пользователь: den
+INFO 2025-06-13 08:08:33,433 basehttp 20328 17232 "POST /api/register/ HTTP/1.1" 201 135
+INFO 2025-06-13 08:08:39,612 views 20328 17232 Пользователь den успешно вошел.
+INFO 2025-06-13 08:08:39,613 basehttp 20328 17232 "POST /api/login/ HTTP/1.1" 200 52
+INFO 2025-06-13 08:08:39,658 basehttp 20328 13420 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:08:39,671 basehttp 20328 17232 "GET /api/applications/ HTTP/1.1" 200 2615
+INFO 2025-06-13 08:08:39,689 basehttp 20328 13420 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:08:39,714 basehttp 20328 17232 "GET /api/applications/ HTTP/1.1" 200 2615
+INFO 2025-06-13 08:09:13,815 basehttp 20328 17232 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 08:09:13,817 basehttp 20328 18844 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:09:13,822 basehttp 20328 13420 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 08:09:13,826 basehttp 20328 4700 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 08:09:13,852 basehttp 20328 17232 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 08:09:13,852 basehttp 20328 18844 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:09:13,857 basehttp 20328 13420 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 08:09:13,859 basehttp 20328 4700 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 08:09:26,274 views 20328 4700 Создание заявки: {'brigade': None, 'location': <Location: Отгрузочный цех>, 'identifier': 'фывпа', 'correction': 'фыпв', 'object_instance': <Object: Осветительная установка>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 13, 4, 9, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 08:09:26,276 basehttp 20328 4700 "POST /api/applications/ HTTP/1.1" 201 331
+INFO 2025-06-13 08:09:27,249 basehttp 20328 13420 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:09:27,266 basehttp 20328 4700 "GET /api/applications/ HTTP/1.1" 200 2947
+INFO 2025-06-13 08:09:27,310 basehttp 20328 4700 "GET /api/applications/ HTTP/1.1" 200 2947
+INFO 2025-06-13 08:09:27,387 basehttp 20328 13420 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:09:35,901 basehttp 20328 13420 "OPTIONS /api/applications/8/ HTTP/1.1" 200 0
+INFO 2025-06-13 08:09:35,952 views 20328 13420 Удаление заявки (ID: 8)
+INFO 2025-06-13 08:09:35,954 basehttp 20328 13420 "DELETE /api/applications/8/ HTTP/1.1" 204 0
+INFO 2025-06-13 08:09:36,752 basehttp 20328 4700 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 08:09:36,761 basehttp 20328 13420 "GET /api/applications/ HTTP/1.1" 200 2615
+INFO 2025-06-13 08:19:26,290 autoreload 20092 6400 Watching for file changes with StatReloader
+WARNING 2025-06-13 08:19:33,191 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:33,192 utils 20092 17844 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:33,194 log 20092 19780 Unauthorized: /api/applications/
+WARNING 2025-06-13 08:19:33,194 log 20092 17844 Unauthorized: /api/statuses/
+WARNING 2025-06-13 08:19:33,194 basehttp 20092 19780 "GET /api/applications/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:19:33,194 basehttp 20092 17844 "GET /api/statuses/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:19:33,195 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:33,196 utils 20092 17844 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:33,196 log 20092 19780 Unauthorized: /api/applications/
+WARNING 2025-06-13 08:19:33,197 log 20092 17844 Unauthorized: /api/statuses/
+WARNING 2025-06-13 08:19:33,197 basehttp 20092 17844 "GET /api/statuses/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:19:33,197 basehttp 20092 19780 "GET /api/applications/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:19:33,199 utils 20092 17844 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:33,200 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:33,200 log 20092 17844 Unauthorized: /api/statuses/
+WARNING 2025-06-13 08:19:33,201 log 20092 19780 Unauthorized: /api/applications/
+WARNING 2025-06-13 08:19:33,201 basehttp 20092 17844 "GET /api/statuses/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:19:33,201 basehttp 20092 19780 "GET /api/applications/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:19:34,596 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:34,597 log 20092 19780 Unauthorized: /api/logout/
+WARNING 2025-06-13 08:19:34,598 basehttp 20092 19780 "POST /api/logout/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:19:35,778 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:35,779 log 20092 19780 Unauthorized: /api/logout/
+WARNING 2025-06-13 08:19:35,779 basehttp 20092 19780 "POST /api/logout/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:19:36,735 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:36,736 log 20092 19780 Unauthorized: /api/logout/
+WARNING 2025-06-13 08:19:36,737 basehttp 20092 19780 "POST /api/logout/ HTTP/1.1" 401 82
+INFO 2025-06-13 08:19:43,517 views 20092 19780 Пользователь gotas успешно вошел.
+INFO 2025-06-13 08:19:43,518 basehttp 20092 19780 "POST /api/login/ HTTP/1.1" 200 52
+WARNING 2025-06-13 08:19:43,529 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:43,530 utils 20092 17844 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:43,531 log 20092 19780 Unauthorized: /api/applications/
+WARNING 2025-06-13 08:19:43,531 log 20092 17844 Unauthorized: /api/statuses/
+WARNING 2025-06-13 08:19:43,532 basehttp 20092 17844 "GET /api/statuses/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:19:43,532 basehttp 20092 19780 "GET /api/applications/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:19:43,533 utils 20092 17844 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:43,534 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:43,534 log 20092 17844 Unauthorized: /api/statuses/
+WARNING 2025-06-13 08:19:43,534 log 20092 19780 Unauthorized: /api/applications/
+WARNING 2025-06-13 08:19:43,535 basehttp 20092 17844 "GET /api/statuses/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:19:43,535 basehttp 20092 19780 "GET /api/applications/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:19:44,843 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:44,844 log 20092 19780 Unauthorized: /api/logout/
+WARNING 2025-06-13 08:19:44,844 basehttp 20092 19780 "POST /api/logout/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:19:45,942 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:19:45,943 log 20092 19780 Unauthorized: /api/logout/
+WARNING 2025-06-13 08:19:45,944 basehttp 20092 19780 "POST /api/logout/ HTTP/1.1" 401 82
+INFO 2025-06-13 08:20:01,900 views 20092 19780 Пользователь gotas успешно вошел.
+INFO 2025-06-13 08:20:01,902 basehttp 20092 19780 "POST /api/login/ HTTP/1.1" 200 52
+WARNING 2025-06-13 08:20:01,909 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:20:01,910 utils 20092 17844 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:20:01,911 log 20092 19780 Unauthorized: /api/applications/
+WARNING 2025-06-13 08:20:01,911 log 20092 17844 Unauthorized: /api/statuses/
+WARNING 2025-06-13 08:20:01,912 basehttp 20092 19780 "GET /api/applications/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:20:01,912 basehttp 20092 17844 "GET /api/statuses/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:20:01,914 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:20:01,915 utils 20092 17844 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:20:01,915 log 20092 19780 Unauthorized: /api/applications/
+WARNING 2025-06-13 08:20:01,916 log 20092 17844 Unauthorized: /api/statuses/
+WARNING 2025-06-13 08:20:01,916 basehttp 20092 19780 "GET /api/applications/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:20:01,916 basehttp 20092 17844 "GET /api/statuses/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:20:04,880 utils 20092 17844 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:20:04,881 log 20092 17844 Unauthorized: /api/logout/
+WARNING 2025-06-13 08:20:04,881 basehttp 20092 17844 "POST /api/logout/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:20:07,392 utils 20092 17844 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:20:07,393 log 20092 17844 Unauthorized: /api/logout/
+WARNING 2025-06-13 08:20:07,394 basehttp 20092 17844 "POST /api/logout/ HTTP/1.1" 401 82
+INFO 2025-06-13 08:20:17,888 views 20092 17844 Зарегистрирован новый пользователь: test12
+INFO 2025-06-13 08:20:17,889 basehttp 20092 17844 "POST /api/register/ HTTP/1.1" 201 135
+INFO 2025-06-13 08:20:25,925 views 20092 17844 Пользователь test12 успешно вошел.
+INFO 2025-06-13 08:20:25,926 basehttp 20092 17844 "POST /api/login/ HTTP/1.1" 200 52
+WARNING 2025-06-13 08:20:25,933 utils 20092 17844 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:20:25,934 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:20:25,934 log 20092 17844 Unauthorized: /api/applications/
+WARNING 2025-06-13 08:20:25,935 log 20092 19780 Unauthorized: /api/statuses/
+WARNING 2025-06-13 08:20:25,936 basehttp 20092 17844 "GET /api/applications/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:20:25,936 basehttp 20092 19780 "GET /api/statuses/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:20:25,938 utils 20092 19780 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:20:25,939 utils 20092 17844 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:20:25,939 log 20092 19780 Unauthorized: /api/applications/
+WARNING 2025-06-13 08:20:25,940 log 20092 17844 Unauthorized: /api/statuses/
+WARNING 2025-06-13 08:20:25,941 basehttp 20092 19780 "GET /api/applications/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:20:25,941 basehttp 20092 17844 "GET /api/statuses/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:20:27,333 utils 20092 17844 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:20:27,334 log 20092 17844 Unauthorized: /api/logout/
+WARNING 2025-06-13 08:20:27,335 basehttp 20092 17844 "POST /api/logout/ HTTP/1.1" 401 82
+WARNING 2025-06-13 08:20:28,112 utils 20092 17844 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 08:20:28,113 log 20092 17844 Unauthorized: /api/logout/
+WARNING 2025-06-13 08:20:28,113 basehttp 20092 17844 "POST /api/logout/ HTTP/1.1" 401 82
+INFO 2025-06-13 08:22:24,575 autoreload 20092 6400 C:\Users\mrgot\Desktop\rab\lab4\code\server\lab4\api\urls.py changed, reloading.
+INFO 2025-06-13 08:22:25,142 autoreload 19860 14748 Watching for file changes with StatReloader
+INFO 2025-06-13 08:22:34,860 autoreload 17212 19656 Watching for file changes with StatReloader
+INFO 2025-06-13 08:28:25,110 autoreload 16940 18344 Watching for file changes with StatReloader
+INFO 2025-06-13 08:29:20,534 autoreload 16940 18344 C:\Users\mrgot\Desktop\rab\lab4\code\server\lab4\api\urls.py changed, reloading.
+INFO 2025-06-13 08:29:21,112 autoreload 17284 17344 Watching for file changes with StatReloader
+INFO 2025-06-13 08:32:30,802 basehttp 17284 7392 "POST /api/token/ HTTP/1.1" 200 483
+WARNING 2025-06-13 08:47:15,849 utils 17284 20340 Ошибка клиента (415): {'detail': ErrorDetail(string='Неподдерживаемый тип данных "application/x-www-form-urlencoded" в запросе.', code='unsupported_media_type')}
+WARNING 2025-06-13 08:47:15,850 log 17284 20340 Unsupported Media Type: /api/register/
+WARNING 2025-06-13 08:47:15,851 basehttp 17284 20340 "POST /api/register/ HTTP/1.1" 415 122
+INFO 2025-06-13 08:53:27,027 basehttp 17284 13420 "OPTIONS /api/register/ HTTP/1.1" 200 0
+ERROR 2025-06-13 08:53:27,386 utils 17284 2776 Непредвиденная ошибка сервера: type object 'Token' has no attribute 'objects'
+Traceback (most recent call last):
+  File "C:\Users\mrgot\Desktop\rab\lab4\code\server\lab4\venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\mrgot\Desktop\rab\lab4\code\server\lab4\venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\mrgot\Desktop\rab\lab4\code\server\lab4\api\views.py", line 125, in register_user
+    token, created = Token.objects.get_or_create(user=user)
+                     ^^^^^^^^^^^^^
+AttributeError: type object 'Token' has no attribute 'objects'
+ERROR 2025-06-13 08:53:27,424 log 17284 2776 Internal Server Error: /api/register/
+ERROR 2025-06-13 08:53:27,425 basehttp 17284 2776 "POST /api/register/ HTTP/1.1" 500 117
+INFO 2025-06-13 09:37:03,941 autoreload 14892 19288 Watching for file changes with StatReloader
+WARNING 2025-06-13 09:37:32,551 views 14892 5672 Ошибка регистрации пользователя: {'username': [ErrorDetail(string='Пользователь с таким именем уже существует.', code='unique')]}
+WARNING 2025-06-13 09:37:32,552 log 14892 5672 Bad Request: /api/register/
+WARNING 2025-06-13 09:37:32,553 basehttp 14892 5672 "POST /api/register/ HTTP/1.1" 400 97
+INFO 2025-06-13 09:37:37,850 views 14892 5672 Зарегистрирован новый пользователь: user2
+INFO 2025-06-13 09:37:37,862 basehttp 14892 5672 "POST /api/register/ HTTP/1.1" 201 330
+INFO 2025-06-13 09:37:48,493 basehttp 14892 20528 "OPTIONS /api/login/ HTTP/1.1" 200 0
+INFO 2025-06-13 09:37:49,201 views 14892 5672 Пользователь user2 успешно вошел.
+INFO 2025-06-13 09:37:49,202 basehttp 14892 5672 "POST /api/login/ HTTP/1.1" 200 247
+INFO 2025-06-13 09:37:49,215 basehttp 14892 20528 "OPTIONS /api/applications/ HTTP/1.1" 200 0
+INFO 2025-06-13 09:37:49,218 basehttp 14892 14364 "OPTIONS /api/statuses/ HTTP/1.1" 200 0
+INFO 2025-06-13 09:37:49,220 basehttp 14892 20528 "OPTIONS /api/applications/ HTTP/1.1" 200 0
+INFO 2025-06-13 09:37:49,221 basehttp 14892 20572 "OPTIONS /api/statuses/ HTTP/1.1" 200 0
+INFO 2025-06-13 09:37:49,247 basehttp 14892 14692 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:37:49,393 basehttp 14892 14692 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:37:49,395 basehttp 14892 5672 "GET /api/applications/ HTTP/1.1" 200 2615
+INFO 2025-06-13 09:37:49,442 basehttp 14892 5672 "GET /api/applications/ HTTP/1.1" 200 2615
+INFO 2025-06-13 09:38:18,224 basehttp 14892 20528 "OPTIONS /api/objects/ HTTP/1.1" 200 0
+INFO 2025-06-13 09:38:18,224 basehttp 14892 20572 "OPTIONS /api/locations/ HTTP/1.1" 200 0
+INFO 2025-06-13 09:38:18,225 basehttp 14892 14364 "OPTIONS /api/brigades/ HTTP/1.1" 200 0
+INFO 2025-06-13 09:38:18,225 basehttp 14892 19768 "OPTIONS /api/locations/ HTTP/1.1" 200 0
+INFO 2025-06-13 09:38:18,230 basehttp 14892 20528 "OPTIONS /api/brigades/ HTTP/1.1" 200 0
+INFO 2025-06-13 09:38:18,231 basehttp 14892 16968 "OPTIONS /api/objects/ HTTP/1.1" 200 0
+INFO 2025-06-13 09:38:18,272 basehttp 14892 5672 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:38:18,280 basehttp 14892 9132 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 09:38:18,283 basehttp 14892 20140 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 09:38:18,284 basehttp 14892 14692 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 09:38:18,310 basehttp 14892 9132 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 09:38:18,310 basehttp 14892 5672 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:38:18,312 basehttp 14892 20140 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 09:38:18,316 basehttp 14892 14692 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 09:38:37,034 views 14892 14692 Создание заявки: {'brigade': None, 'location': <Location: Офисы>, 'identifier': 'sdf23', 'correction': None, 'object_instance': <Object: Компрессорная установка>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 13, 5, 38, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 09:38:37,036 basehttp 14892 14692 "POST /api/applications/ HTTP/1.1" 201 300
+INFO 2025-06-13 09:38:38,090 basehttp 14892 14692 "GET /api/applications/ HTTP/1.1" 200 2916
+INFO 2025-06-13 09:38:38,129 basehttp 14892 14692 "GET /api/applications/ HTTP/1.1" 200 2916
+INFO 2025-06-13 09:38:38,183 basehttp 14892 20140 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:38:38,220 basehttp 14892 20140 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:38:50,795 basehttp 14892 5672 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:38:50,795 basehttp 14892 20140 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 09:38:50,797 basehttp 14892 14692 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 09:38:50,804 basehttp 14892 9132 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 09:38:50,807 basehttp 14892 16968 "OPTIONS /api/applications/9/ HTTP/1.1" 200 0
+INFO 2025-06-13 09:38:50,826 basehttp 14892 17516 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:38:50,828 basehttp 14892 20140 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 09:38:50,828 basehttp 14892 14692 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 09:38:50,835 basehttp 14892 9132 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 09:38:50,844 basehttp 14892 5672 "GET /api/applications/9/ HTTP/1.1" 200 300
+INFO 2025-06-13 09:38:50,871 basehttp 14892 5672 "GET /api/applications/9/ HTTP/1.1" 200 300
+INFO 2025-06-13 09:39:05,542 views 14892 5672 Обновление заявки (ID: 9): {'brigade': <Brigade: Бригада №3>, 'location': <Location: Офисы>, 'identifier': 'sdf231', 'correction': None, 'object_instance': <Object: Компрессорная установка>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 12, 22, 38, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 09:39:05,544 basehttp 14892 5672 "PUT /api/applications/9/ HTTP/1.1" 200 304
+INFO 2025-06-13 09:39:06,386 basehttp 14892 9132 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:39:06,398 basehttp 14892 5672 "GET /api/applications/ HTTP/1.1" 200 2920
+INFO 2025-06-13 09:39:06,413 basehttp 14892 9132 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:39:06,437 basehttp 14892 5672 "GET /api/applications/ HTTP/1.1" 200 2920
+INFO 2025-06-13 09:40:28,256 basehttp 14892 9132 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:40:28,270 basehttp 14892 5672 "GET /api/applications/ HTTP/1.1" 200 2920
+INFO 2025-06-13 09:40:28,286 basehttp 14892 9132 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:40:28,311 basehttp 14892 5672 "GET /api/applications/ HTTP/1.1" 200 2920
+INFO 2025-06-13 09:40:28,438 basehttp 14892 9132 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:40:28,471 basehttp 14892 5672 "GET /api/applications/ HTTP/1.1" 200 2920
+INFO 2025-06-13 09:40:35,557 basehttp 14892 16968 "OPTIONS /api/logout/ HTTP/1.1" 200 0
+INFO 2025-06-13 09:40:35,593 views 14892 5672 Пользователь user2 вышел.
+INFO 2025-06-13 09:40:35,594 basehttp 14892 5672 "POST /api/logout/ HTTP/1.1" 200 41
+INFO 2025-06-13 09:40:51,926 views 14892 5672 Пользователь user2 успешно вошел.
+INFO 2025-06-13 09:40:51,927 basehttp 14892 5672 "POST /api/login/ HTTP/1.1" 200 247
+INFO 2025-06-13 09:40:51,965 basehttp 14892 9132 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:40:51,997 basehttp 14892 9132 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:40:52,088 basehttp 14892 5672 "GET /api/applications/ HTTP/1.1" 200 2920
+INFO 2025-06-13 09:40:52,136 basehttp 14892 5672 "GET /api/applications/ HTTP/1.1" 200 2920
+INFO 2025-06-13 09:40:54,439 views 14892 5672 Пользователь user2 вышел.
+INFO 2025-06-13 09:40:54,440 basehttp 14892 5672 "POST /api/logout/ HTTP/1.1" 200 41
+INFO 2025-06-13 09:41:06,301 views 14892 5672 Пользователь gotas успешно вошел.
+INFO 2025-06-13 09:41:06,302 basehttp 14892 5672 "POST /api/login/ HTTP/1.1" 200 247
+INFO 2025-06-13 09:41:06,341 basehttp 14892 9132 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:41:06,454 basehttp 14892 5672 "GET /api/applications/ HTTP/1.1" 200 2920
+INFO 2025-06-13 09:41:06,482 basehttp 14892 9132 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:41:06,495 basehttp 14892 5672 "GET /api/applications/ HTTP/1.1" 200 2920
+INFO 2025-06-13 09:49:05,285 autoreload 14892 19288 C:\Users\mrgot\Desktop\rab\lab4\code\server\lab4\lab4\settings.py changed, reloading.
+INFO 2025-06-13 09:56:01,375 autoreload 5672 14692 Watching for file changes with StatReloader
+WARNING 2025-06-13 09:58:33,073 utils 5672 1304 Ошибка клиента (401): {'detail': ErrorDetail(string='Данный токен недействителен для любого типа токена', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}
+WARNING 2025-06-13 09:58:33,075 log 5672 1304 Unauthorized: /api/login/
+WARNING 2025-06-13 09:58:33,076 basehttp 5672 1304 "POST /api/login/ HTTP/1.1" 401 226
+INFO 2025-06-13 09:58:33,080 basehttp 5672 13340 "OPTIONS /api/token/refresh/ HTTP/1.1" 200 0
+WARNING 2025-06-13 09:58:33,082 views 5672 1304 Попытка обновления токена без refresh token cookie.
+WARNING 2025-06-13 09:58:33,083 log 5672 1304 Unauthorized: /api/token/refresh/
+WARNING 2025-06-13 09:58:33,083 basehttp 5672 1304 "POST /api/token/refresh/ HTTP/1.1" 401 50
+INFO 2025-06-13 09:58:46,639 views 5672 1304 Зарегистрирован новый пользователь: user3
+INFO 2025-06-13 09:58:46,641 basehttp 5672 1304 "POST /api/register/ HTTP/1.1" 201 331
+INFO 2025-06-13 09:58:57,030 views 5672 1304 Пользователь user3 успешно вошел.
+INFO 2025-06-13 09:58:57,031 basehttp 5672 1304 "POST /api/login/ HTTP/1.1" 200 248
+INFO 2025-06-13 09:58:57,075 basehttp 5672 20196 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:58:57,094 basehttp 5672 1304 "GET /api/applications/ HTTP/1.1" 200 2920
+INFO 2025-06-13 09:58:57,110 basehttp 5672 20196 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:58:57,267 basehttp 5672 1304 "GET /api/applications/ HTTP/1.1" 200 2920
+INFO 2025-06-13 09:59:17,939 views 5672 1304 Пользователь user3 вышел.
+INFO 2025-06-13 09:59:17,940 basehttp 5672 1304 "POST /api/logout/ HTTP/1.1" 200 41
+INFO 2025-06-13 09:59:24,033 views 5672 1304 Пользователь user3 успешно вошел.
+INFO 2025-06-13 09:59:24,034 basehttp 5672 1304 "POST /api/login/ HTTP/1.1" 200 248
+INFO 2025-06-13 09:59:24,075 basehttp 5672 20196 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:59:24,094 basehttp 5672 1304 "GET /api/applications/ HTTP/1.1" 200 2920
+INFO 2025-06-13 09:59:24,110 basehttp 5672 20196 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:59:24,137 basehttp 5672 1304 "GET /api/applications/ HTTP/1.1" 200 2920
+INFO 2025-06-13 09:59:28,665 basehttp 5672 1304 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 09:59:28,671 basehttp 5672 328 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:59:28,671 basehttp 5672 20196 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 09:59:28,671 basehttp 5672 17424 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 09:59:28,704 basehttp 5672 17424 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 09:59:28,704 basehttp 5672 1304 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 09:59:28,705 basehttp 5672 20196 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 09:59:28,814 basehttp 5672 328 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:59:45,946 views 5672 328 Создание заявки: {'brigade': None, 'location': <Location: Производственный цех>, 'identifier': 'bni345', 'correction': None, 'object_instance': <Object: Станок ЧПУ>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 13, 5, 59, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 09:59:45,948 basehttp 5672 328 "POST /api/applications/ HTTP/1.1" 201 305
+INFO 2025-06-13 09:59:46,749 basehttp 5672 20196 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:59:46,761 basehttp 5672 328 "GET /api/applications/ HTTP/1.1" 200 3226
+INFO 2025-06-13 09:59:46,777 basehttp 5672 20196 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 09:59:46,799 basehttp 5672 328 "GET /api/applications/ HTTP/1.1" 200 3226
+INFO 2025-06-13 10:00:21,550 basehttp 5672 328 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:21,555 basehttp 5672 17424 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:21,556 basehttp 5672 20196 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:21,560 basehttp 5672 1304 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:21,563 basehttp 5672 13340 "OPTIONS /api/applications/10/ HTTP/1.1" 200 0
+INFO 2025-06-13 10:00:21,583 basehttp 5672 328 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:21,586 basehttp 5672 17424 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:21,590 basehttp 5672 1304 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:21,598 basehttp 5672 14828 "GET /api/applications/10/ HTTP/1.1" 200 305
+INFO 2025-06-13 10:00:21,693 basehttp 5672 20196 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:21,733 basehttp 5672 20196 "GET /api/applications/10/ HTTP/1.1" 200 305
+INFO 2025-06-13 10:00:24,736 basehttp 5672 14828 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:24,759 basehttp 5672 20196 "GET /api/applications/ HTTP/1.1" 200 3226
+INFO 2025-06-13 10:00:24,769 basehttp 5672 14828 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:24,799 basehttp 5672 20196 "GET /api/applications/ HTTP/1.1" 200 3226
+INFO 2025-06-13 10:00:26,076 basehttp 5672 20196 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:26,082 basehttp 5672 14828 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:26,088 basehttp 5672 17424 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:26,091 basehttp 5672 1304 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:26,110 basehttp 5672 20196 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:26,115 basehttp 5672 14828 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:26,125 basehttp 5672 17424 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:26,125 basehttp 5672 1304 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:26,131 basehttp 5672 328 "GET /api/applications/9/ HTTP/1.1" 200 304
+INFO 2025-06-13 10:00:26,160 basehttp 5672 328 "GET /api/applications/9/ HTTP/1.1" 200 304
+INFO 2025-06-13 10:00:27,241 basehttp 5672 1304 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:27,259 basehttp 5672 328 "GET /api/applications/ HTTP/1.1" 200 3226
+INFO 2025-06-13 10:00:27,302 basehttp 5672 328 "GET /api/applications/ HTTP/1.1" 200 3226
+INFO 2025-06-13 10:00:27,379 basehttp 5672 1304 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:28,342 basehttp 5672 328 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:28,342 basehttp 5672 1304 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:28,344 basehttp 5672 17424 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:28,347 basehttp 5672 14828 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:28,350 basehttp 5672 13340 "OPTIONS /api/applications/6/ HTTP/1.1" 200 0
+INFO 2025-06-13 10:00:28,375 basehttp 5672 1304 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:28,375 basehttp 5672 14828 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:28,375 basehttp 5672 328 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:28,376 basehttp 5672 17424 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:28,386 basehttp 5672 20196 "GET /api/applications/6/ HTTP/1.1" 200 327
+INFO 2025-06-13 10:00:28,542 basehttp 5672 20196 "GET /api/applications/6/ HTTP/1.1" 200 327
+INFO 2025-06-13 10:00:30,409 basehttp 5672 17424 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:30,533 basehttp 5672 20196 "GET /api/applications/ HTTP/1.1" 200 3226
+INFO 2025-06-13 10:00:30,550 basehttp 5672 17424 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:30,577 basehttp 5672 20196 "GET /api/applications/ HTTP/1.1" 200 3226
+INFO 2025-06-13 10:00:31,658 basehttp 5672 20196 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:31,664 basehttp 5672 328 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:31,664 basehttp 5672 14828 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:31,665 basehttp 5672 17424 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:31,669 basehttp 5672 13340 "OPTIONS /api/applications/5/ HTTP/1.1" 200 0
+INFO 2025-06-13 10:00:31,690 basehttp 5672 20196 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:31,705 basehttp 5672 17424 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:31,706 basehttp 5672 1304 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:31,706 basehttp 5672 328 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:31,711 basehttp 5672 14828 "GET /api/applications/5/ HTTP/1.1" 200 322
+INFO 2025-06-13 10:00:31,857 basehttp 5672 14828 "GET /api/applications/5/ HTTP/1.1" 200 322
+INFO 2025-06-13 10:00:32,674 basehttp 5672 328 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:32,693 basehttp 5672 14828 "GET /api/applications/ HTTP/1.1" 200 3226
+INFO 2025-06-13 10:00:32,701 basehttp 5672 328 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:32,860 basehttp 5672 14828 "GET /api/applications/ HTTP/1.1" 200 3226
+INFO 2025-06-13 10:00:33,485 basehttp 5672 14828 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:33,494 basehttp 5672 1304 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:33,494 basehttp 5672 17424 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:33,495 basehttp 5672 328 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:33,499 basehttp 5672 13340 "OPTIONS /api/applications/4/ HTTP/1.1" 200 0
+INFO 2025-06-13 10:00:33,515 basehttp 5672 14828 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:33,525 basehttp 5672 1304 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:33,526 basehttp 5672 17424 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:33,528 basehttp 5672 328 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:33,537 basehttp 5672 20196 "GET /api/applications/4/ HTTP/1.1" 200 334
+INFO 2025-06-13 10:00:33,573 basehttp 5672 20196 "GET /api/applications/4/ HTTP/1.1" 200 334
+INFO 2025-06-13 10:00:35,738 basehttp 5672 328 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:35,756 basehttp 5672 20196 "GET /api/applications/ HTTP/1.1" 200 3226
+INFO 2025-06-13 10:00:35,799 basehttp 5672 20196 "GET /api/applications/ HTTP/1.1" 200 3226
+INFO 2025-06-13 10:00:35,874 basehttp 5672 328 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:37,713 basehttp 5672 328 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:37,720 basehttp 5672 20196 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:37,724 basehttp 5672 17424 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:37,724 basehttp 5672 1304 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:37,727 basehttp 5672 13340 "OPTIONS /api/applications/3/ HTTP/1.1" 200 0
+INFO 2025-06-13 10:00:37,754 basehttp 5672 1304 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:37,756 basehttp 5672 17424 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:37,757 basehttp 5672 20196 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:37,765 basehttp 5672 14828 "GET /api/applications/3/ HTTP/1.1" 200 1215
+INFO 2025-06-13 10:00:37,845 basehttp 5672 328 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:37,883 basehttp 5672 328 "GET /api/applications/3/ HTTP/1.1" 200 1215
+INFO 2025-06-13 10:00:44,938 views 5672 328 Обновление заявки (ID: 3): {'brigade': <Brigade: Бригада №5>, 'location': <Location: Погрузочный цех>, 'identifier': '5j3455', 'correction': 'норм', 'object_instance': <Object: Вентиляционная система>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 12, 13, 36, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 10:00:44,940 basehttp 5672 328 "PUT /api/applications/3/ HTTP/1.1" 200 327
+INFO 2025-06-13 10:00:45,918 basehttp 5672 14828 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:45,935 basehttp 5672 328 "GET /api/applications/ HTTP/1.1" 200 2338
+INFO 2025-06-13 10:00:45,945 basehttp 5672 14828 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:45,973 basehttp 5672 328 "GET /api/applications/ HTTP/1.1" 200 2338
+INFO 2025-06-13 10:00:48,820 basehttp 5672 328 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:48,820 basehttp 5672 14828 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:48,825 basehttp 5672 20196 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:48,828 basehttp 5672 17424 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:48,851 basehttp 5672 328 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:48,851 basehttp 5672 14828 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:48,856 basehttp 5672 20196 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:48,863 basehttp 5672 17424 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:48,871 basehttp 5672 1304 "GET /api/applications/3/ HTTP/1.1" 200 327
+INFO 2025-06-13 10:00:49,016 basehttp 5672 1304 "GET /api/applications/3/ HTTP/1.1" 200 327
+INFO 2025-06-13 10:00:50,310 basehttp 5672 17424 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:50,326 basehttp 5672 1304 "GET /api/applications/ HTTP/1.1" 200 2338
+INFO 2025-06-13 10:00:50,339 basehttp 5672 17424 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:50,365 basehttp 5672 1304 "GET /api/applications/ HTTP/1.1" 200 2338
+INFO 2025-06-13 10:00:52,237 basehttp 5672 1304 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:52,240 basehttp 5672 17424 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:52,243 basehttp 5672 14828 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:52,246 basehttp 5672 20196 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:52,250 basehttp 5672 13340 "OPTIONS /api/applications/2/ HTTP/1.1" 200 0
+INFO 2025-06-13 10:00:52,270 basehttp 5672 17424 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 10:00:52,271 basehttp 5672 1304 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 10:00:52,273 basehttp 5672 14828 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 10:00:52,282 basehttp 5672 20196 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:00:52,288 basehttp 5672 328 "GET /api/applications/2/ HTTP/1.1" 200 411
+INFO 2025-06-13 10:00:52,319 basehttp 5672 328 "GET /api/applications/2/ HTTP/1.1" 200 411
+INFO 2025-06-13 10:01:00,981 views 5672 328 Обновление заявки (ID: 2): {'brigade': <Brigade: Бригада №10>, 'location': <Location: Литьевой цех>, 'identifier': '5kdsg4', 'correction': 'Всё очень плохо, но теперь хорошо', 'object_instance': <Object: Вентиляционная система>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 12, 13, 35, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': datetime.datetime(2025, 6, 14, 21, 7, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau'))}
+INFO 2025-06-13 10:01:00,983 basehttp 5672 328 "PUT /api/applications/2/ HTTP/1.1" 200 398
+INFO 2025-06-13 10:01:01,772 basehttp 5672 20196 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:01:01,788 basehttp 5672 328 "GET /api/applications/ HTTP/1.1" 200 2325
+INFO 2025-06-13 10:01:01,808 basehttp 5672 20196 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 10:01:01,834 basehttp 5672 328 "GET /api/applications/ HTTP/1.1" 200 2325
+WARNING 2025-06-13 11:14:51,509 utils 5672 2836 Ошибка клиента (401): {'detail': ErrorDetail(string='Данный токен недействителен для любого типа токена', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}
+WARNING 2025-06-13 11:14:51,512 log 5672 2836 Unauthorized: /api/logout/
+WARNING 2025-06-13 11:14:51,513 basehttp 5672 2836 "POST /api/logout/ HTTP/1.1" 401 226
+WARNING 2025-06-13 11:14:51,516 views 5672 2836 Попытка обновления токена без refresh token cookie.
+WARNING 2025-06-13 11:14:51,517 log 5672 2836 Unauthorized: /api/token/refresh/
+WARNING 2025-06-13 11:14:51,517 basehttp 5672 2836 "POST /api/token/refresh/ HTTP/1.1" 401 50
+INFO 2025-06-13 11:17:56,629 basehttp 5672 19824 "OPTIONS /api/register/ HTTP/1.1" 200 0
+INFO 2025-06-13 11:17:57,036 views 5672 2836 Зарегистрирован новый пользователь: Alexey
+INFO 2025-06-13 11:17:57,037 basehttp 5672 2836 "POST /api/register/ HTTP/1.1" 201 331
+INFO 2025-06-13 11:21:56,143 views 5672 2836 Пользователь user2 успешно вошел.
+INFO 2025-06-13 11:21:56,145 basehttp 5672 2836 "POST /api/login/ HTTP/1.1" 200 247
+INFO 2025-06-13 11:21:56,193 basehttp 5672 19032 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:21:56,207 basehttp 5672 2836 "GET /api/applications/ HTTP/1.1" 200 2325
+INFO 2025-06-13 11:21:56,221 basehttp 5672 19032 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:21:56,361 basehttp 5672 2836 "GET /api/applications/ HTTP/1.1" 200 2325
+INFO 2025-06-13 11:26:35,170 basehttp 5672 19032 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 11:26:35,174 basehttp 5672 9584 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:26:35,178 basehttp 5672 4532 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 11:26:35,202 basehttp 5672 4532 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 11:26:35,205 basehttp 5672 19032 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 11:26:35,259 basehttp 5672 2836 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 11:26:35,290 basehttp 5672 2836 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 11:26:35,308 basehttp 5672 9584 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:28:21,952 basehttp 5672 2836 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:28:21,968 basehttp 5672 9584 "GET /api/applications/ HTTP/1.1" 200 2325
+INFO 2025-06-13 11:28:21,990 basehttp 5672 2836 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:28:22,012 basehttp 5672 9584 "GET /api/applications/ HTTP/1.1" 200 2325
+INFO 2025-06-13 11:28:23,624 basehttp 5672 9584 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 11:28:23,628 basehttp 5672 19032 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:28:23,631 basehttp 5672 2836 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 11:28:23,635 basehttp 5672 4532 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 11:28:23,658 basehttp 5672 9584 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 11:28:23,662 basehttp 5672 2836 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 11:28:23,668 basehttp 5672 4532 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 11:28:23,673 basehttp 5672 17492 "GET /api/applications/10/ HTTP/1.1" 200 305
+INFO 2025-06-13 11:28:23,790 basehttp 5672 19032 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:28:23,835 basehttp 5672 19032 "GET /api/applications/10/ HTTP/1.1" 200 305
+INFO 2025-06-13 11:45:16,912 autoreload 10144 9460 Watching for file changes with StatReloader
+WARNING 2025-06-13 11:49:19,534 utils 10144 16456 Ошибка клиента (401): {'detail': ErrorDetail(string='Данный токен недействителен для любого типа токена', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}
+WARNING 2025-06-13 11:49:19,536 log 10144 16456 Unauthorized: /api/register/
+WARNING 2025-06-13 11:49:19,536 basehttp 10144 16456 "POST /api/register/ HTTP/1.1" 401 226
+WARNING 2025-06-13 11:49:19,539 views 10144 16456 Попытка обновления токена без refresh token cookie.
+WARNING 2025-06-13 11:49:19,539 log 10144 16456 Unauthorized: /api/token/refresh/
+WARNING 2025-06-13 11:49:19,540 basehttp 10144 16456 "POST /api/token/refresh/ HTTP/1.1" 401 50
+INFO 2025-06-13 11:50:01,753 views 10144 16456 Зарегистрирован новый пользователь: testuser
+INFO 2025-06-13 11:50:01,755 basehttp 10144 16456 "POST /api/register/ HTTP/1.1" 201 331
+INFO 2025-06-13 11:51:39,981 views 10144 16456 Зарегистрирован новый пользователь: usertest
+INFO 2025-06-13 11:51:39,983 basehttp 10144 16456 "POST /api/register/ HTTP/1.1" 201 331
+INFO 2025-06-13 11:53:24,549 basehttp 10144 7328 "OPTIONS /api/login/ HTTP/1.1" 200 0
+INFO 2025-06-13 11:53:25,269 views 10144 16456 Пользователь usertest успешно вошел.
+INFO 2025-06-13 11:53:25,270 basehttp 10144 16456 "POST /api/login/ HTTP/1.1" 200 248
+INFO 2025-06-13 11:53:25,280 basehttp 10144 7328 "OPTIONS /api/applications/ HTTP/1.1" 200 0
+INFO 2025-06-13 11:53:25,285 basehttp 10144 20600 "OPTIONS /api/statuses/ HTTP/1.1" 200 0
+INFO 2025-06-13 11:53:25,286 basehttp 10144 20840 "OPTIONS /api/statuses/ HTTP/1.1" 200 0
+INFO 2025-06-13 11:53:25,286 basehttp 10144 7328 "OPTIONS /api/applications/ HTTP/1.1" 200 0
+INFO 2025-06-13 11:53:25,321 basehttp 10144 18488 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:53:25,345 basehttp 10144 16456 "GET /api/applications/ HTTP/1.1" 200 2325
+INFO 2025-06-13 11:53:25,359 basehttp 10144 18488 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:53:25,391 basehttp 10144 16456 "GET /api/applications/ HTTP/1.1" 200 2325
+INFO 2025-06-13 11:55:51,334 basehttp 10144 20840 "OPTIONS /api/locations/ HTTP/1.1" 200 0
+INFO 2025-06-13 11:55:51,334 basehttp 10144 7328 "OPTIONS /api/objects/ HTTP/1.1" 200 0
+INFO 2025-06-13 11:55:51,335 basehttp 10144 20600 "OPTIONS /api/brigades/ HTTP/1.1" 200 0
+INFO 2025-06-13 11:55:51,340 basehttp 10144 20036 "OPTIONS /api/objects/ HTTP/1.1" 200 0
+INFO 2025-06-13 11:55:51,340 basehttp 10144 20840 "OPTIONS /api/locations/ HTTP/1.1" 200 0
+INFO 2025-06-13 11:55:51,341 basehttp 10144 7328 "OPTIONS /api/brigades/ HTTP/1.1" 200 0
+INFO 2025-06-13 11:55:51,380 basehttp 10144 21044 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 11:55:51,380 basehttp 10144 18488 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 11:55:51,380 basehttp 10144 19440 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 11:55:51,380 basehttp 10144 16456 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:55:51,419 basehttp 10144 18488 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 11:55:51,420 basehttp 10144 16456 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 11:55:51,421 basehttp 10144 19440 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 11:55:51,426 basehttp 10144 21044 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:59:44,068 views 10144 21044 Создание заявки: {'brigade': <Brigade: Бригада №11>, 'location': <Location: Погрузочный цех>, 'identifier': '4kdsf2', 'correction': 'Связаться с бригадой по поводу уточнения местоположения', 'object_instance': <Object: Промышленный насос>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 14, 7, 56, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-13 11:59:44,071 basehttp 10144 21044 "POST /api/applications/ HTTP/1.1" 201 418
+INFO 2025-06-13 11:59:45,432 basehttp 10144 19440 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:59:45,450 basehttp 10144 21044 "GET /api/applications/ HTTP/1.1" 200 2744
+INFO 2025-06-13 11:59:45,460 basehttp 10144 19440 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 11:59:45,492 basehttp 10144 21044 "GET /api/applications/ HTTP/1.1" 200 2744
+INFO 2025-06-13 12:05:20,294 basehttp 10144 18440 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 12:05:20,294 basehttp 10144 10828 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 12:05:20,295 basehttp 10144 3776 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 12:05:20,302 basehttp 10144 18648 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 12:05:20,306 basehttp 10144 21144 "OPTIONS /api/applications/9/ HTTP/1.1" 200 0
+INFO 2025-06-13 12:05:20,328 basehttp 10144 10828 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 12:05:20,330 basehttp 10144 3776 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 12:05:20,334 basehttp 10144 18648 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 12:05:20,347 basehttp 10144 18440 "GET /api/applications/9/ HTTP/1.1" 200 304
+INFO 2025-06-13 12:05:20,451 basehttp 10144 5392 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 12:05:20,501 basehttp 10144 5392 "GET /api/applications/9/ HTTP/1.1" 200 304
+WARNING 2025-06-13 12:08:35,031 utils 10144 5392 Ошибка клиента (401): {'detail': ErrorDetail(string='Данный токен недействителен для любого типа токена', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}
+WARNING 2025-06-13 12:08:35,032 log 10144 5392 Unauthorized: /api/applications/9/
+WARNING 2025-06-13 12:08:35,032 basehttp 10144 5392 "PUT /api/applications/9/ HTTP/1.1" 401 226
+INFO 2025-06-13 12:08:35,035 basehttp 10144 21144 "OPTIONS /api/token/refresh/ HTTP/1.1" 200 0
+WARNING 2025-06-13 12:08:35,036 views 10144 5392 Попытка обновления токена без refresh token cookie.
+WARNING 2025-06-13 12:08:35,037 log 10144 5392 Unauthorized: /api/token/refresh/
+WARNING 2025-06-13 12:08:35,037 basehttp 10144 5392 "POST /api/token/refresh/ HTTP/1.1" 401 50
+WARNING 2025-06-13 12:08:38,463 utils 10144 5392 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-13 12:08:38,464 log 10144 5392 Unauthorized: /api/applications/9/
+WARNING 2025-06-13 12:08:38,465 basehttp 10144 5392 "PUT /api/applications/9/ HTTP/1.1" 401 82
+WARNING 2025-06-13 12:08:38,468 views 10144 5392 Попытка обновления токена без refresh token cookie.
+WARNING 2025-06-13 12:08:38,468 log 10144 5392 Unauthorized: /api/token/refresh/
+WARNING 2025-06-13 12:08:38,469 basehttp 10144 5392 "POST /api/token/refresh/ HTTP/1.1" 401 50
+INFO 2025-06-13 12:08:57,819 views 10144 5392 Пользователь usertest успешно вошел.
+INFO 2025-06-13 12:08:57,820 basehttp 10144 5392 "POST /api/login/ HTTP/1.1" 200 248
+INFO 2025-06-13 12:08:57,864 basehttp 10144 18440 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 12:08:57,880 basehttp 10144 5392 "GET /api/applications/ HTTP/1.1" 200 2744
+INFO 2025-06-13 12:08:57,891 basehttp 10144 18440 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 12:08:57,920 basehttp 10144 5392 "GET /api/applications/ HTTP/1.1" 200 2744
+INFO 2025-06-13 12:09:01,351 basehttp 10144 5392 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 12:09:01,354 basehttp 10144 3776 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 12:09:01,357 basehttp 10144 18440 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 12:09:01,360 basehttp 10144 18648 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 12:09:01,385 basehttp 10144 3776 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-13 12:09:01,387 basehttp 10144 18440 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-13 12:09:01,390 basehttp 10144 18648 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 12:09:01,402 basehttp 10144 10828 "GET /api/applications/9/ HTTP/1.1" 200 304
+INFO 2025-06-13 12:09:01,507 basehttp 10144 5392 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-13 12:09:01,545 basehttp 10144 5392 "GET /api/applications/9/ HTTP/1.1" 200 304
+INFO 2025-06-13 12:09:29,647 views 10144 5392 Обновление заявки (ID: 9): {'brigade': <Brigade: Бригада №3>, 'location': <Location: Офисы>, 'identifier': 'sdf231', 'correction': None, 'object_instance': <Object: Компрессорная установка>, 'status': <Status: Решена>, 'start_time': datetime.datetime(2025, 6, 12, 15, 38, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': datetime.datetime(2025, 6, 21, 8, 6, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau'))}
+INFO 2025-06-13 12:09:29,649 basehttp 10144 5392 "PUT /api/applications/9/ HTTP/1.1" 200 323
+INFO 2025-06-13 12:09:30,660 basehttp 10144 10828 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 12:09:30,677 basehttp 10144 5392 "GET /api/applications/ HTTP/1.1" 200 2763
+INFO 2025-06-13 12:09:30,687 basehttp 10144 10828 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 12:09:30,716 basehttp 10144 5392 "GET /api/applications/ HTTP/1.1" 200 2763
+INFO 2025-06-13 12:11:37,780 basehttp 10144 21144 "OPTIONS /api/applications/11/ HTTP/1.1" 200 0
+INFO 2025-06-13 12:11:37,819 views 10144 5392 Удаление заявки (ID: 11)
+INFO 2025-06-13 12:11:37,821 basehttp 10144 5392 "DELETE /api/applications/11/ HTTP/1.1" 204 0
+INFO 2025-06-13 12:11:38,868 basehttp 10144 10828 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-13 12:11:38,892 basehttp 10144 5392 "GET /api/applications/ HTTP/1.1" 200 2344
+INFO 2025-06-20 00:06:29,489 autoreload 13452 23484 Watching for file changes with StatReloader
+INFO 2025-06-20 00:06:50,083 basehttp 13452 23432 "OPTIONS /api/register/ HTTP/1.1" 200 0
+INFO 2025-06-20 00:06:50,607 views 13452 26424 Зарегистрирован новый пользователь: hehehe
+INFO 2025-06-20 00:06:50,625 basehttp 13452 26424 "POST /api/register/ HTTP/1.1" 201 331
+INFO 2025-06-20 00:06:57,631 basehttp 13452 23432 "OPTIONS /api/login/ HTTP/1.1" 200 0
+INFO 2025-06-20 00:06:58,380 views 13452 26424 Пользователь hehehe успешно вошел.
+INFO 2025-06-20 00:06:58,381 basehttp 13452 26424 "POST /api/login/ HTTP/1.1" 200 248
+INFO 2025-06-20 00:06:58,399 basehttp 13452 23432 "OPTIONS /api/applications/ HTTP/1.1" 200 0
+INFO 2025-06-20 00:06:58,406 basehttp 13452 23432 "OPTIONS /api/statuses/ HTTP/1.1" 200 0
+INFO 2025-06-20 00:06:58,406 basehttp 13452 10236 "OPTIONS /api/statuses/ HTTP/1.1" 200 0
+INFO 2025-06-20 00:06:58,406 basehttp 13452 7052 "OPTIONS /api/applications/ HTTP/1.1" 200 0
+INFO 2025-06-20 00:06:58,478 basehttp 13452 26424 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 00:06:58,524 basehttp 13452 18856 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 00:06:58,533 basehttp 13452 17100 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 00:06:58,564 basehttp 13452 18856 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 00:11:32,250 autoreload 13452 23484 C:\Users\mrgot\Desktop\rgr\server\api\views.py changed, reloading.
+INFO 2025-06-20 00:11:32,856 autoreload 7952 25536 Watching for file changes with StatReloader
+INFO 2025-06-20 00:12:03,300 autoreload 7952 25536 C:\Users\mrgot\Desktop\rgr\server\api\views.py changed, reloading.
+INFO 2025-06-20 00:12:03,834 autoreload 21916 2340 Watching for file changes with StatReloader
+WARNING 2025-06-20 00:24:49,675 utils 21916 10644 Ошибка клиента (401): {'detail': ErrorDetail(string='Данный токен недействителен для любого типа токена', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}
+WARNING 2025-06-20 00:24:49,675 utils 21916 17476 Ошибка клиента (401): {'detail': ErrorDetail(string='Данный токен недействителен для любого типа токена', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}
+WARNING 2025-06-20 00:24:49,678 log 21916 10644 Unauthorized: /api/applications/
+WARNING 2025-06-20 00:24:49,678 log 21916 17476 Unauthorized: /api/statuses/
+WARNING 2025-06-20 00:24:49,679 basehttp 21916 10644 "GET /api/applications/ HTTP/1.1" 401 226
+WARNING 2025-06-20 00:24:49,679 basehttp 21916 17476 "GET /api/statuses/ HTTP/1.1" 401 226
+WARNING 2025-06-20 00:24:49,681 utils 21916 10644 Ошибка клиента (401): {'detail': ErrorDetail(string='Данный токен недействителен для любого типа токена', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}
+WARNING 2025-06-20 00:24:49,682 utils 21916 17476 Ошибка клиента (401): {'detail': ErrorDetail(string='Данный токен недействителен для любого типа токена', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}
+WARNING 2025-06-20 00:24:49,683 log 21916 10644 Unauthorized: /api/applications/
+WARNING 2025-06-20 00:24:49,684 log 21916 17476 Unauthorized: /api/statuses/
+WARNING 2025-06-20 00:24:49,685 basehttp 21916 17476 "GET /api/statuses/ HTTP/1.1" 401 226
+WARNING 2025-06-20 00:24:49,685 basehttp 21916 10644 "GET /api/applications/ HTTP/1.1" 401 226
+WARNING 2025-06-20 00:24:49,687 utils 21916 17476 Ошибка клиента (401): {'detail': ErrorDetail(string='Данный токен недействителен для любого типа токена', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}
+INFO 2025-06-20 00:24:49,687 basehttp 21916 4644 "OPTIONS /api/token/refresh/ HTTP/1.1" 200 0
+WARNING 2025-06-20 00:24:49,689 utils 21916 10644 Ошибка клиента (401): {'detail': ErrorDetail(string='Данный токен недействителен для любого типа токена', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}
+WARNING 2025-06-20 00:24:49,689 log 21916 17476 Unauthorized: /api/statuses/
+WARNING 2025-06-20 00:24:49,690 log 21916 10644 Unauthorized: /api/applications/
+WARNING 2025-06-20 00:24:49,691 views 21916 14956 Попытка обновления токена без refresh token cookie.
+WARNING 2025-06-20 00:24:49,691 basehttp 21916 17476 "GET /api/statuses/ HTTP/1.1" 401 226
+WARNING 2025-06-20 00:24:49,691 basehttp 21916 10644 "GET /api/applications/ HTTP/1.1" 401 226
+WARNING 2025-06-20 00:24:49,691 log 21916 14956 Unauthorized: /api/token/refresh/
+WARNING 2025-06-20 00:24:49,692 basehttp 21916 14956 "POST /api/token/refresh/ HTTP/1.1" 401 50
+WARNING 2025-06-20 00:24:52,659 utils 21916 14956 Ошибка клиента (401): {'detail': ErrorDetail(string='Учетные данные не были предоставлены.', code='not_authenticated')}
+WARNING 2025-06-20 00:24:52,660 log 21916 14956 Unauthorized: /api/logout/
+WARNING 2025-06-20 00:24:52,661 basehttp 21916 14956 "POST /api/logout/ HTTP/1.1" 401 82
+WARNING 2025-06-20 00:24:52,675 views 21916 14956 Попытка обновления токена без refresh token cookie.
+WARNING 2025-06-20 00:24:52,676 log 21916 14956 Unauthorized: /api/token/refresh/
+WARNING 2025-06-20 00:24:52,677 basehttp 21916 14956 "POST /api/token/refresh/ HTTP/1.1" 401 50
+INFO 2025-06-20 00:28:44,603 autoreload 21916 2340 C:\Users\mrgot\Desktop\rgr\server\lab4\settings.py changed, reloading.
+INFO 2025-06-20 00:28:45,424 autoreload 21780 22876 Watching for file changes with StatReloader
+INFO 2025-06-20 00:28:57,803 views 21780 18728 Пользователь hehehe успешно вошел.
+INFO 2025-06-20 00:28:57,804 basehttp 21780 18728 "POST /api/login/ HTTP/1.1" 200 248
+INFO 2025-06-20 00:28:57,858 basehttp 21780 27204 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 00:28:57,888 basehttp 21780 18728 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 00:28:57,891 basehttp 21780 22684 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 00:28:57,932 basehttp 21780 27204 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 00:33:28,461 autoreload 21780 22876 C:\Users\mrgot\Desktop\rgr\server\lab4\settings.py changed, reloading.
+INFO 2025-06-20 00:33:29,047 autoreload 24904 23808 Watching for file changes with StatReloader
+INFO 2025-06-20 00:35:09,849 autoreload 24904 23808 C:\Users\mrgot\Desktop\rgr\server\manage.py changed, reloading.
+INFO 2025-06-20 00:35:10,469 autoreload 17004 20944 Watching for file changes with StatReloader
+INFO 2025-06-20 00:36:42,494 autoreload 17004 20944 C:\Users\mrgot\Desktop\rgr\server\lab4\urls.py changed, reloading.
+INFO 2025-06-20 00:36:43,083 autoreload 25828 27428 Watching for file changes with StatReloader
+INFO 2025-06-20 00:38:29,640 autoreload 25828 27428 C:\Users\mrgot\Desktop\rgr\server\lab4\settings.py changed, reloading.
+INFO 2025-06-20 00:38:30,201 autoreload 17300 4584 Watching for file changes with StatReloader
+INFO 2025-06-20 00:38:35,677 autoreload 17300 4584 C:\Users\mrgot\Desktop\rgr\server\lab4\settings.py changed, reloading.
+INFO 2025-06-20 00:38:36,285 autoreload 16272 13868 Watching for file changes with StatReloader
+INFO 2025-06-20 00:38:54,120 autoreload 16272 13868 C:\Users\mrgot\Desktop\rgr\server\lab4\settings.py changed, reloading.
+INFO 2025-06-20 00:38:54,676 autoreload 27060 20136 Watching for file changes with StatReloader
+INFO 2025-06-20 01:10:15,925 autoreload 27060 20136 C:\Users\mrgot\Desktop\rgr\server\lab4\settings.py changed, reloading.
+INFO 2025-06-20 01:10:16,645 autoreload 28456 28232 Watching for file changes with StatReloader
+INFO 2025-06-20 01:10:45,816 autoreload 28456 28232 C:\Users\mrgot\Desktop\rgr\server\lab4\settings.py changed, reloading.
+INFO 2025-06-20 01:10:46,375 autoreload 18856 24024 Watching for file changes with StatReloader
+INFO 2025-06-20 01:10:49,798 autoreload 18856 24024 C:\Users\mrgot\Desktop\rgr\server\lab4\settings.py changed, reloading.
+INFO 2025-06-20 01:10:50,340 autoreload 25232 2972 Watching for file changes with StatReloader
+INFO 2025-06-20 01:13:02,219 autoreload 25232 2972 C:\Users\mrgot\Desktop\rgr\server\api\views.py changed, reloading.
+INFO 2025-06-20 01:13:02,803 autoreload 24632 9468 Watching for file changes with StatReloader
+INFO 2025-06-20 01:14:39,066 autoreload 24632 9468 C:\Users\mrgot\Desktop\rgr\server\api\urls.py changed, reloading.
+INFO 2025-06-20 01:14:39,669 autoreload 1464 20900 Watching for file changes with StatReloader
+INFO 2025-06-20 01:17:41,923 autoreload 1464 20900 C:\Users\mrgot\Desktop\rgr\server\api\serializers.py changed, reloading.
+INFO 2025-06-20 01:17:42,463 autoreload 28476 14780 Watching for file changes with StatReloader
+INFO 2025-06-20 01:18:54,844 autoreload 28476 14780 C:\Users\mrgot\Desktop\rgr\server\api\models.py changed, reloading.
+INFO 2025-06-20 01:18:55,354 autoreload 28400 27992 Watching for file changes with StatReloader
+INFO 2025-06-20 01:19:30,244 autoreload 28400 27992 C:\Users\mrgot\Desktop\rgr\server\api\models.py changed, reloading.
+INFO 2025-06-20 01:19:30,852 autoreload 24616 28256 Watching for file changes with StatReloader
+INFO 2025-06-20 01:19:58,240 autoreload 24616 28256 C:\Users\mrgot\Desktop\rgr\server\manage.py changed, reloading.
+INFO 2025-06-20 01:19:58,761 autoreload 9676 28504 Watching for file changes with StatReloader
+INFO 2025-06-20 01:20:17,438 basehttp 9676 28320 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:20:17,465 basehttp 9676 23532 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:20:17,490 basehttp 9676 28320 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:20:17,574 basehttp 9676 18516 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:20:17,717 basehttp 9676 28320 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:20:17,763 basehttp 9676 18516 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:20:42,908 autoreload 9676 28504 C:\Users\mrgot\Desktop\rgr\server\api\admin.py changed, reloading.
+INFO 2025-06-20 01:20:43,478 autoreload 8140 28008 Watching for file changes with StatReloader
+INFO 2025-06-20 01:21:09,669 basehttp 8140 25636 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:21:09,701 basehttp 8140 27148 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:21:09,713 basehttp 8140 13380 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:21:09,750 basehttp 8140 27148 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:21:09,763 basehttp 8140 25636 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:21:09,818 basehttp 8140 27148 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:21:37,719 basehttp 8140 25636 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:21:37,829 basehttp 8140 27148 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:22:10,731 basehttp 8140 27272 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:22:10,749 basehttp 8140 23548 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:22:10,759 basehttp 8140 10380 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:22:10,788 basehttp 8140 27272 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:23:03,713 basehttp 8140 10380 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:23:03,728 basehttp 8140 27272 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:23:03,767 basehttp 8140 10380 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:23:03,844 basehttp 8140 23548 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:23:41,714 basehttp 8140 10380 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:23:41,737 basehttp 8140 23548 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:23:41,748 basehttp 8140 27272 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:23:41,784 basehttp 8140 10380 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:26:06,715 basehttp 8140 10380 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:26:06,813 basehttp 8140 27272 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:26:48,475 basehttp 8140 10380 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:26:48,489 basehttp 8140 27272 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:26:48,528 basehttp 8140 10380 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:26:48,565 basehttp 8140 27272 "GET /api/applications/ HTTP/1.1" 200 2016
+INFO 2025-06-20 01:26:48,600 basehttp 8140 23548 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 01:26:48,627 basehttp 8140 27272 "GET /api/statuses/ HTTP/1.1" 200 121
