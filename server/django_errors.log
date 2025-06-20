@@ -1012,3 +1012,239 @@ INFO 2025-06-20 01:26:48,528 basehttp 8140 10380 "GET /api/applications/ HTTP/1.
 INFO 2025-06-20 01:26:48,565 basehttp 8140 27272 "GET /api/applications/ HTTP/1.1" 200 2016
 INFO 2025-06-20 01:26:48,600 basehttp 8140 23548 "GET /api/statuses/ HTTP/1.1" 200 121
 INFO 2025-06-20 01:26:48,627 basehttp 8140 27272 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:08,560 autoreload 31120 20508 Watching for file changes with StatReloader
+INFO 2025-06-20 05:34:17,051 views 31120 19528 Пользователь Evgenii успешно вошел.
+INFO 2025-06-20 05:34:17,053 basehttp 31120 19528 "POST /api/login/ HTTP/1.1" 200 248
+INFO 2025-06-20 05:34:17,112 basehttp 31120 16852 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:17,147 basehttp 31120 28124 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:17,152 basehttp 31120 19528 "GET /api/applications/ HTTP/1.1" 200 2247
+INFO 2025-06-20 05:34:17,199 basehttp 31120 28124 "GET /api/applications/ HTTP/1.1" 200 2247
+INFO 2025-06-20 05:34:20,511 basehttp 31120 21292 "OPTIONS /api/applications/17/ HTTP/1.1" 200 0
+INFO 2025-06-20 05:34:20,541 views 31120 28124 Удаление заявки (ID: 17)
+INFO 2025-06-20 05:34:20,542 basehttp 31120 28124 "DELETE /api/applications/17/ HTTP/1.1" 204 0
+INFO 2025-06-20 05:34:21,260 basehttp 31120 19528 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:21,276 basehttp 31120 28124 "GET /api/applications/ HTTP/1.1" 200 1928
+INFO 2025-06-20 05:34:23,330 basehttp 31120 21292 "OPTIONS /api/applications/15/ HTTP/1.1" 200 0
+INFO 2025-06-20 05:34:23,487 views 31120 28124 Удаление заявки (ID: 15)
+INFO 2025-06-20 05:34:23,489 basehttp 31120 28124 "DELETE /api/applications/15/ HTTP/1.1" 204 0
+INFO 2025-06-20 05:34:24,230 basehttp 31120 19528 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:24,245 basehttp 31120 28124 "GET /api/applications/ HTTP/1.1" 200 1641
+INFO 2025-06-20 05:34:25,492 basehttp 31120 21292 "OPTIONS /api/applications/14/ HTTP/1.1" 200 0
+INFO 2025-06-20 05:34:25,534 views 31120 28124 Удаление заявки (ID: 14)
+INFO 2025-06-20 05:34:25,535 basehttp 31120 28124 "DELETE /api/applications/14/ HTTP/1.1" 204 0
+INFO 2025-06-20 05:34:26,115 basehttp 31120 19528 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:26,126 basehttp 31120 28124 "GET /api/applications/ HTTP/1.1" 200 1315
+INFO 2025-06-20 05:34:27,428 views 31120 28124 Удаление заявки (ID: 19)
+INFO 2025-06-20 05:34:27,430 basehttp 31120 28124 "DELETE /api/applications/19/ HTTP/1.1" 204 0
+INFO 2025-06-20 05:34:27,906 basehttp 31120 19528 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:27,914 basehttp 31120 28124 "GET /api/applications/ HTTP/1.1" 200 996
+INFO 2025-06-20 05:34:29,217 basehttp 31120 21292 "OPTIONS /api/applications/18/ HTTP/1.1" 200 0
+INFO 2025-06-20 05:34:29,358 views 31120 28124 Удаление заявки (ID: 18)
+INFO 2025-06-20 05:34:29,359 basehttp 31120 28124 "DELETE /api/applications/18/ HTTP/1.1" 204 0
+INFO 2025-06-20 05:34:29,868 basehttp 31120 19528 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:29,881 basehttp 31120 28124 "GET /api/applications/ HTTP/1.1" 200 679
+INFO 2025-06-20 05:34:31,020 views 31120 28124 Удаление заявки (ID: 21)
+INFO 2025-06-20 05:34:31,021 basehttp 31120 28124 "DELETE /api/applications/21/ HTTP/1.1" 204 0
+INFO 2025-06-20 05:34:31,466 basehttp 31120 19528 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:31,472 basehttp 31120 28124 "GET /api/applications/ HTTP/1.1" 200 343
+INFO 2025-06-20 05:34:32,579 basehttp 31120 21292 "OPTIONS /api/applications/20/ HTTP/1.1" 200 0
+INFO 2025-06-20 05:34:32,624 views 31120 28124 Удаление заявки (ID: 20)
+INFO 2025-06-20 05:34:32,626 basehttp 31120 28124 "DELETE /api/applications/20/ HTTP/1.1" 204 0
+INFO 2025-06-20 05:34:33,101 basehttp 31120 19528 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:33,211 basehttp 31120 28124 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-20 05:34:33,801 basehttp 31120 21292 "OPTIONS /api/locations/ HTTP/1.1" 200 0
+INFO 2025-06-20 05:34:33,806 basehttp 31120 21292 "OPTIONS /api/objects/ HTTP/1.1" 200 0
+INFO 2025-06-20 05:34:33,806 basehttp 31120 21432 "OPTIONS /api/brigades/ HTTP/1.1" 200 0
+INFO 2025-06-20 05:34:33,812 basehttp 31120 4072 "OPTIONS /api/brigades/ HTTP/1.1" 200 0
+INFO 2025-06-20 05:34:33,813 basehttp 31120 28432 "OPTIONS /api/objects/ HTTP/1.1" 200 0
+INFO 2025-06-20 05:34:33,813 basehttp 31120 27776 "OPTIONS /api/locations/ HTTP/1.1" 200 0
+INFO 2025-06-20 05:34:33,849 basehttp 31120 28124 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:33,858 basehttp 31120 19528 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:34:33,858 basehttp 31120 16852 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:34:33,863 basehttp 31120 31460 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:34:33,892 basehttp 31120 19528 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:34:33,898 basehttp 31120 28124 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:34:33,898 basehttp 31120 16852 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:34:33,982 basehttp 31120 28320 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:52,153 views 31120 28320 Создание заявки: {'brigade': None, 'location': <Location: Литьевой цех>, 'identifier': 'ds324sf', 'correction': None, 'object_instance': <Object: Компрессорная установка>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 20, 1, 34, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-20 05:34:52,156 basehttp 31120 28320 "POST /api/applications/ HTTP/1.1" 201 316
+INFO 2025-06-20 05:34:52,916 basehttp 31120 16852 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:52,921 basehttp 31120 28320 "GET /api/applications/ HTTP/1.1" 200 318
+INFO 2025-06-20 05:34:52,957 basehttp 31120 19528 "GET /api/applications/ HTTP/1.1" 200 318
+INFO 2025-06-20 05:34:53,043 basehttp 31120 28124 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:54,332 basehttp 31120 28320 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:54,332 basehttp 31120 19528 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:34:54,338 basehttp 31120 16852 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:34:54,368 basehttp 31120 24776 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:34:54,369 basehttp 31120 31460 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:34:54,379 basehttp 31120 28320 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:34:54,421 basehttp 31120 28124 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:34:54,565 basehttp 31120 28320 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:35:09,248 views 31120 28320 Создание заявки: {'brigade': <Brigade: Бригада №3>, 'location': <Location: Отгрузочный цех>, 'identifier': 'bnvl34', 'correction': None, 'object_instance': <Object: Сварочный аппарат>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 20, 1, 35, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-20 05:35:09,253 basehttp 31120 28320 "POST /api/applications/ HTTP/1.1" 201 312
+INFO 2025-06-20 05:35:10,171 basehttp 31120 28124 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:35:10,204 basehttp 31120 31460 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:35:10,265 basehttp 31120 28320 "GET /api/applications/ HTTP/1.1" 200 631
+INFO 2025-06-20 05:35:10,303 basehttp 31120 31460 "GET /api/applications/ HTTP/1.1" 200 631
+INFO 2025-06-20 05:35:11,473 basehttp 31120 31460 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:35:11,476 basehttp 31120 28320 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:35:11,476 basehttp 31120 24776 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:35:11,477 basehttp 31120 28124 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:35:11,510 basehttp 31120 16852 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:35:11,514 basehttp 31120 19528 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:35:11,526 basehttp 31120 31460 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:35:11,528 basehttp 31120 28320 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:35:35,062 views 31120 28320 Создание заявки: {'brigade': <Brigade: Бригада №9>, 'location': <Location: Офисы>, 'identifier': 'snld312', 'correction': None, 'object_instance': <Object: Трансформатор>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 20, 1, 35, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-20 05:35:35,063 basehttp 31120 28320 "POST /api/applications/ HTTP/1.1" 201 287
+INFO 2025-06-20 05:35:35,773 basehttp 31120 31460 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:35:35,787 basehttp 31120 28320 "GET /api/applications/ HTTP/1.1" 200 919
+INFO 2025-06-20 05:35:35,808 basehttp 31120 19528 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:35:35,947 basehttp 31120 16852 "GET /api/applications/ HTTP/1.1" 200 919
+INFO 2025-06-20 05:35:36,925 basehttp 31120 19528 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:35:36,925 basehttp 31120 16852 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:35:36,935 basehttp 31120 31460 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:35:36,935 basehttp 31120 28320 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:35:36,965 basehttp 31120 24776 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:35:36,980 basehttp 31120 19528 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:35:36,984 basehttp 31120 16852 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:35:37,069 basehttp 31120 28124 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:35:52,952 views 31120 28124 Создание заявки: {'brigade': None, 'location': <Location: Погрузочный цех>, 'identifier': '2gks4', 'correction': None, 'object_instance': <Object: Подъемный кран>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 20, 1, 35, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-20 05:35:52,954 basehttp 31120 28124 "POST /api/applications/ HTTP/1.1" 201 302
+INFO 2025-06-20 05:35:53,724 basehttp 31120 16852 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:35:53,737 basehttp 31120 28124 "GET /api/applications/ HTTP/1.1" 200 1222
+INFO 2025-06-20 05:35:53,760 basehttp 31120 19528 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:35:53,783 basehttp 31120 24776 "GET /api/applications/ HTTP/1.1" 200 1222
+INFO 2025-06-20 05:35:55,259 basehttp 31120 28124 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:35:55,263 basehttp 31120 16852 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:35:55,263 basehttp 31120 19528 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:35:55,263 basehttp 31120 24776 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:35:55,295 basehttp 31120 28320 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:35:55,301 basehttp 31120 31460 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:35:55,311 basehttp 31120 28124 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:35:55,312 basehttp 31120 16852 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:36:10,605 views 31120 28124 Создание заявки: {'brigade': <Brigade: Бригада №12>, 'location': <Location: Производственный цех>, 'identifier': 'gw32gf2w', 'correction': None, 'object_instance': <Object: Станок ЧПУ>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 20, 1, 36, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-20 05:36:10,606 basehttp 31120 28124 "POST /api/applications/ HTTP/1.1" 201 312
+INFO 2025-06-20 05:36:11,397 basehttp 31120 16852 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:36:11,416 basehttp 31120 28124 "GET /api/applications/ HTTP/1.1" 200 1535
+INFO 2025-06-20 05:36:11,437 basehttp 31120 31460 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:36:11,459 basehttp 31120 16852 "GET /api/applications/ HTTP/1.1" 200 1535
+INFO 2025-06-20 05:36:12,824 basehttp 31120 16852 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:36:12,826 basehttp 31120 31460 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:36:12,831 basehttp 31120 28124 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:36:12,831 basehttp 31120 28320 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:36:12,863 basehttp 31120 19528 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:36:12,878 basehttp 31120 31460 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:36:12,878 basehttp 31120 16852 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:36:12,970 basehttp 31120 24776 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:36:26,380 views 31120 24776 Создание заявки: {'brigade': None, 'location': <Location: Сборочный цех>, 'identifier': 'gns83', 'correction': None, 'object_instance': <Object: Сварочный аппарат>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 20, 1, 36, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-20 05:36:26,382 basehttp 31120 24776 "POST /api/applications/ HTTP/1.1" 201 304
+INFO 2025-06-20 05:36:27,051 basehttp 31120 16852 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:36:27,069 basehttp 31120 24776 "GET /api/applications/ HTTP/1.1" 200 1840
+INFO 2025-06-20 05:36:27,083 basehttp 31120 31460 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:36:27,111 basehttp 31120 16852 "GET /api/applications/ HTTP/1.1" 200 1840
+INFO 2025-06-20 05:38:28,221 basehttp 31120 16852 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:38:28,230 basehttp 31120 24776 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:38:28,231 basehttp 31120 19528 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:38:28,236 basehttp 31120 31460 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:38:28,257 basehttp 31120 28124 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:38:28,265 basehttp 31120 28320 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:38:28,277 basehttp 31120 19528 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:38:28,371 basehttp 31120 16852 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:43:10,342 views 31120 16852 Создание заявки: {'brigade': None, 'location': <Location: Складской цех>, 'identifier': 'dfk322n', 'correction': None, 'object_instance': <Object: Подъемный кран>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 20, 1, 40, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-20 05:43:10,345 basehttp 31120 16852 "POST /api/applications/ HTTP/1.1" 201 300
+INFO 2025-06-20 05:43:12,450 basehttp 31120 19528 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:43:12,472 basehttp 31120 16852 "GET /api/applications/ HTTP/1.1" 200 2141
+INFO 2025-06-20 05:43:12,488 basehttp 31120 28320 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:43:12,519 basehttp 31120 19528 "GET /api/applications/ HTTP/1.1" 200 2141
+INFO 2025-06-20 05:46:53,560 basehttp 31120 19528 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:46:53,565 basehttp 31120 28320 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:46:53,570 basehttp 31120 16852 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:46:53,571 basehttp 31120 4884 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:46:53,577 basehttp 31120 30096 "OPTIONS /api/applications/28/ HTTP/1.1" 200 0
+INFO 2025-06-20 05:46:53,597 basehttp 31120 29780 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 05:46:53,603 basehttp 31120 19528 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 05:46:53,606 basehttp 31120 28320 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:46:53,610 basehttp 31120 16852 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 05:46:53,619 basehttp 31120 4884 "GET /api/applications/28/ HTTP/1.1" 200 300
+INFO 2025-06-20 05:46:53,657 basehttp 31120 16852 "GET /api/applications/28/ HTTP/1.1" 200 300
+INFO 2025-06-20 05:50:18,137 views 31120 16852 Обновление заявки (ID: 28): {'brigade': <Brigade: Бригада №8>, 'location': <Location: Складской цех>, 'identifier': 'dfk322n', 'correction': 'Задача решается в срочном порядке', 'object_instance': <Object: Подъемный кран>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 19, 18, 40, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-20 05:50:18,139 basehttp 31120 16852 "PUT /api/applications/28/ HTTP/1.1" 200 363
+INFO 2025-06-20 05:50:19,037 basehttp 31120 4884 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:50:19,061 basehttp 31120 16852 "GET /api/applications/ HTTP/1.1" 200 2204
+INFO 2025-06-20 05:50:19,071 basehttp 31120 28320 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:50:19,106 basehttp 31120 4884 "GET /api/applications/ HTTP/1.1" 200 2204
+INFO 2025-06-20 05:54:21,304 basehttp 31120 26068 "OPTIONS /api/applications/27/ HTTP/1.1" 200 0
+INFO 2025-06-20 05:54:21,339 views 31120 4884 Удаление заявки (ID: 27)
+INFO 2025-06-20 05:54:21,340 basehttp 31120 4884 "DELETE /api/applications/27/ HTTP/1.1" 204 0
+INFO 2025-06-20 05:54:22,182 basehttp 31120 28320 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 05:54:22,198 basehttp 31120 4884 "GET /api/applications/ HTTP/1.1" 200 1899
+INFO 2025-06-20 07:00:48,338 basehttp 31120 34048 "OPTIONS /api/applications/26/ HTTP/1.1" 200 0
+INFO 2025-06-20 07:00:48,386 views 31120 22296 Удаление заявки (ID: 26)
+INFO 2025-06-20 07:00:48,388 basehttp 31120 22296 "DELETE /api/applications/26/ HTTP/1.1" 204 0
+INFO 2025-06-20 07:00:48,835 basehttp 31120 34048 "OPTIONS /api/applications/ HTTP/1.1" 200 0
+INFO 2025-06-20 07:00:48,836 basehttp 31120 33048 "OPTIONS /api/statuses/ HTTP/1.1" 200 0
+INFO 2025-06-20 07:00:48,877 basehttp 31120 32956 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:00:48,888 basehttp 31120 22296 "GET /api/applications/ HTTP/1.1" 200 1586
+INFO 2025-06-20 07:00:49,937 basehttp 31120 33048 "OPTIONS /api/applications/23/ HTTP/1.1" 200 0
+INFO 2025-06-20 07:00:49,972 views 31120 22296 Удаление заявки (ID: 23)
+INFO 2025-06-20 07:00:49,974 basehttp 31120 22296 "DELETE /api/applications/23/ HTTP/1.1" 204 0
+INFO 2025-06-20 07:00:50,473 basehttp 31120 32956 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:00:50,483 basehttp 31120 22296 "GET /api/applications/ HTTP/1.1" 200 1273
+INFO 2025-06-20 07:00:51,307 basehttp 31120 33048 "OPTIONS /api/applications/24/ HTTP/1.1" 200 0
+INFO 2025-06-20 07:00:51,353 views 31120 22296 Удаление заявки (ID: 24)
+INFO 2025-06-20 07:00:51,355 basehttp 31120 22296 "DELETE /api/applications/24/ HTTP/1.1" 204 0
+INFO 2025-06-20 07:00:51,811 basehttp 31120 32956 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:00:51,828 basehttp 31120 22296 "GET /api/applications/ HTTP/1.1" 200 985
+INFO 2025-06-20 07:00:52,605 basehttp 31120 33048 "OPTIONS /api/applications/25/ HTTP/1.1" 200 0
+INFO 2025-06-20 07:00:52,640 views 31120 22296 Удаление заявки (ID: 25)
+INFO 2025-06-20 07:00:52,641 basehttp 31120 22296 "DELETE /api/applications/25/ HTTP/1.1" 204 0
+INFO 2025-06-20 07:00:53,047 basehttp 31120 32956 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:00:53,054 basehttp 31120 22296 "GET /api/applications/ HTTP/1.1" 200 682
+INFO 2025-06-20 07:00:54,074 basehttp 31120 33048 "OPTIONS /api/applications/22/ HTTP/1.1" 200 0
+INFO 2025-06-20 07:00:54,105 views 31120 22296 Удаление заявки (ID: 22)
+INFO 2025-06-20 07:00:54,107 basehttp 31120 22296 "DELETE /api/applications/22/ HTTP/1.1" 204 0
+INFO 2025-06-20 07:00:54,466 basehttp 31120 32956 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:00:54,474 basehttp 31120 22296 "GET /api/applications/ HTTP/1.1" 200 365
+INFO 2025-06-20 07:00:55,859 views 31120 22296 Удаление заявки (ID: 28)
+INFO 2025-06-20 07:00:55,863 basehttp 31120 22296 "DELETE /api/applications/28/ HTTP/1.1" 204 0
+INFO 2025-06-20 07:00:56,267 basehttp 31120 22296 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-20 07:00:56,272 basehttp 31120 32956 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:23:08,713 basehttp 31120 27180 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:23:08,715 basehttp 31120 33376 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-20 07:23:14,540 basehttp 31120 27180 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:23:14,566 basehttp 31120 33068 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:23:14,590 basehttp 31120 27180 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:23:14,637 basehttp 31120 33376 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-20 07:23:14,673 basehttp 31120 27180 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-20 07:23:14,807 basehttp 31120 33376 "GET /api/applications/ HTTP/1.1" 200 2
+INFO 2025-06-20 07:23:15,771 basehttp 31120 33376 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 07:23:15,778 basehttp 31120 32140 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 07:23:15,778 basehttp 31120 27180 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 07:23:15,779 basehttp 31120 33068 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:23:15,812 basehttp 31120 14232 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 07:23:15,817 basehttp 31120 32696 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 07:23:15,826 basehttp 31120 32140 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:23:15,932 basehttp 31120 33376 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 07:23:34,662 views 31120 33376 Создание заявки: {'brigade': None, 'location': <Location: Отгрузочный цех>, 'identifier': '7nfdlg423', 'correction': None, 'object_instance': <Object: Промышленный насос>, 'status': <Status: Не распределена>, 'start_time': datetime.datetime(2025, 6, 20, 3, 23, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-20 07:23:34,665 basehttp 31120 33376 "POST /api/applications/ HTTP/1.1" 201 314
+INFO 2025-06-20 07:23:35,489 basehttp 31120 32140 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:23:35,500 basehttp 31120 33376 "GET /api/applications/ HTTP/1.1" 200 316
+INFO 2025-06-20 07:23:35,528 basehttp 31120 32696 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:23:35,538 basehttp 31120 32140 "GET /api/applications/ HTTP/1.1" 200 316
+INFO 2025-06-20 07:23:37,477 basehttp 31120 21228 "OPTIONS /api/applications/29/ HTTP/1.1" 200 0
+INFO 2025-06-20 07:23:37,523 views 31120 32140 Удаление заявки (ID: 29)
+INFO 2025-06-20 07:23:37,524 basehttp 31120 32140 "DELETE /api/applications/29/ HTTP/1.1" 204 0
+INFO 2025-06-20 07:23:39,994 basehttp 31120 32140 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 07:23:39,999 basehttp 31120 33376 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:23:39,999 basehttp 31120 32696 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 07:23:40,005 basehttp 31120 14232 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 07:23:40,033 basehttp 31120 33068 "GET /api/locations/ HTTP/1.1" 200 342
+INFO 2025-06-20 07:23:40,041 basehttp 31120 32140 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:23:40,043 basehttp 31120 27180 "GET /api/objects/ HTTP/1.1" 200 558
+INFO 2025-06-20 07:23:40,043 basehttp 31120 32696 "GET /api/brigades/ HTTP/1.1" 200 282
+INFO 2025-06-20 07:23:53,527 views 31120 32696 Создание заявки: {'brigade': <Brigade: Бригада №5>, 'location': <Location: Сборочный цех>, 'identifier': '7nfdlg423', 'correction': None, 'object_instance': <Object: Осветительная установка>, 'status': <Status: Решается>, 'start_time': datetime.datetime(2025, 6, 20, 3, 23, tzinfo=zoneinfo.ZoneInfo(key='Europe/Chisinau')), 'end_time': None}
+INFO 2025-06-20 07:23:53,530 basehttp 31120 32696 "POST /api/applications/ HTTP/1.1" 201 324
+INFO 2025-06-20 07:23:54,246 basehttp 31120 27180 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:23:54,258 basehttp 31120 32696 "GET /api/applications/ HTTP/1.1" 200 326
+INFO 2025-06-20 07:23:54,278 basehttp 31120 32140 "GET /api/statuses/ HTTP/1.1" 200 121
+INFO 2025-06-20 07:23:54,295 basehttp 31120 33068 "GET /api/applications/ HTTP/1.1" 200 326

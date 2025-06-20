@@ -328,9 +328,10 @@ const Home = () => {
                 closeModal();
                 try {
                     await deleteApplication(appId);
+                    // Обновляем состояние, чтобы удалить заявку без перезагрузки
+                    setAllApplications(prevApplications => prevApplications.filter(app => app.id !== appId));
                     openModal('Успех', 'Заявка успешно удалена!', () => {
                         closeModal();
-                        fetchApplicationsAndStatuses();
                     });
                 } catch (err) {
                     openModal('Ошибка', err.message || 'Не удалось удалить заявку.', () => closeModal());
